@@ -8,6 +8,9 @@ Delle variabili si devono tenere a mente alcune convenzioni generiche di natura 
 
 ## Variabili dipendenti e indipendenti
 
+hai la figa nel culo
+
+
 
 
 

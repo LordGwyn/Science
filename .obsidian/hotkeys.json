@@ -1,16 +1,9 @@
 {
-  "obsidian-git:pull": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
   "obsidian-git:push": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "B"
     }

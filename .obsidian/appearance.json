@@ -1,3 +1,8 @@
 {
-  "baseFontSize": 16
+  "baseFontSize": 23,
+  "cssTheme": "",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "delete"
+  ]
 }

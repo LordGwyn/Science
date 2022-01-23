@@ -1,1 +1,7 @@
-{}
+{
+  "communityThemeSortOrder": "download",
+  "promptDelete": true,
+  "alwaysUpdateLinks": false,
+  "legacyEditor": false,
+  "livePreview": true
+}

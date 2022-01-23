@@ -1,6 +1,6 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "commitMessage": "Science - date: {{date}}, changes: {{numFiles}}",
+  "commitDateFormat": "DD-MM-YYYY HH:mm:ss",
   "autoSaveInterval": 0.5,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,

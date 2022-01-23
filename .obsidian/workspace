@@ -7,7 +7,7 @@
         "id": "912153ae8aa887d5",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -84,9 +84,9 @@
   },
   "active": "912153ae8aa887d5",
   "lastOpenFiles": [
+    "arietà.md",
     "gay.md",
     "insieme.md",
-    "arietà.md",
     "Cardinalità di un insieme.md",
     "variabili!!!!!!!!!!.md",
     "Untitled 1.md",

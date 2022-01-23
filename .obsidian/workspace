@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "proprietà commutativa.md",
+            "file": "insieme.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "proprietà commutativa.md",
+                "file": "insieme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "912153ae8aa887d5",
   "lastOpenFiles": [
-    "proprietà commutativa.md",
-    "prodotto cartesiano.md",
-    "operazione binaria.md",
     "insieme.md",
     "funzione.md",
+    "coordinate.md",
+    "coppia ordinata.md",
     "ennupla ordinata.md",
-    "arietà.md",
-    "gay.md",
-    "Cardinalità di un insieme.md",
-    "variabili!!!!!!!!!!.md"
+    "identità.md",
+    "oggetto matematico.md",
+    "proprietà commutativa.md",
+    "prodotto cartesiano.md",
+    "operazione binaria.md"
   ]
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Logica.md",
+            "file": "logica.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica.md",
+                "file": "logica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "912153ae8aa887d5",
   "lastOpenFiles": [
-    "Logica.md",
-    "operazione binaria.md",
-    "prodotto cartesiano.md",
+    "logica.md",
     "insieme.md",
-    "oggetto matematico.md",
-    "funzione.md",
-    "coordinate.md",
     "identità.md",
-    "ennupla ordinata.md",
-    "coppia ordinata.md"
+    "proprietà commutativa.md",
+    "proprietà associativa.md",
+    "prodotto cartesiano.md",
+    "oggetto matematico.md",
+    "coordinate.md",
+    "coppia ordinata.md",
+    "ennupla ordinata.md"
   ]
 }

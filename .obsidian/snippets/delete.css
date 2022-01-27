@@ -14,12 +14,26 @@ div .cm-line {
   font-size: 20px;
 }
 
-div .HyperMD-list-line:last-child {
-  padding-bottom: 5px;
+.HyperMD-list-line {
+  padding-bottom: 5px !important;
+  padding-left: 22px !important;
 }
 
 div .cm-formatting-list-ol {
   font-size: 15px;
   font-weight: 700;
-  padding-right: 5px;
+}
+
+.MJX-TEX {
+  font-size: 22px;
+}
+
+mjx-container {
+  /*box-shadow: inset 65px 0px 35px -42px #1F618D;*/
+}
+
+span mjx-container {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
 }

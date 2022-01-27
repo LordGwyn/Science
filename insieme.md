@@ -29,7 +29,7 @@ Si possono identificare 3 parti che compongono questa notazione (dentro le graff
 
 ---
 ## Cardinalità degli insiemi
-	La cardinalità di un insieme indica il numero di elementi presenti al suo   interno, ad esempio:
+`La cardinalità di un insieme indica il numero di elementi presenti al suo   interno, ad esempio:`
 
 $$ X = \{1,2,3,4\} \rightarrow |X| = 4  $$
 
@@ -49,7 +49,9 @@ In generale si può dire che la potenza $P(X)$ di un insieme X è scrivibile com
 ---
 ## Insieme complementare
 Dato un insieme A, sottoinsieme di X si definisce ==*complementare*== di A in X, il sottoinsieme:
+
 $$ CA=\{x \in X \; | \; x \notin A\} $$
+
 talvolta per specificare l'insieme di riferimento del complementare, viene usata la notazione $C_XA$.
 Alcune propretà base degli insiemi complementari vengono immediate:
 - $CX = \emptyset$
@@ -62,6 +64,7 @@ Le principali operazioni che si possono svolgere tra insiemi sono unione e inter
 
 #### Unione
 si definisce unione tra un sottoinsieme A e un sottoinsieme B, l'insieme:
+
 $$A \cup B = \{ x \in X \;|\; x \in A \;\textrm{oppure}\; x \in B \}$$
 
 Le proprietà dell'operazione di _unione_ tra insiemi sono:
@@ -73,6 +76,7 @@ Le proprietà dell'operazione di _unione_ tra insiemi sono:
 si definisce intersezione tra un sottoinsieme A e un sottoinsieme B, l'insieme:
 
 $$A \cap B = \{ x \in X \;|\; x \in A \;\textrm{e}\; x \in B \}$$
+
 Le proprietà dell'operazione di _intersezione_ tra insiemi sono:
 1. $A \cap B = B \cap A \hspace{1cm}$([[proprietà commutativa]])
 2. $A \cap (B \cap C)= (A \cap B) \cap C \hspace{1cm}$([[proprietà associativa]])
@@ -81,7 +85,9 @@ Le proprietà dell'operazione di _intersezione_ tra insiemi sono:
 ___
 ## Differenza tra insiemi
 Il primo tipo di differenza tra insiemi è la _differenza non simmetrica_ che si definisce in questo modo:
+
 $$ A \setminus B = \{ x \in A \;|\; x \notin B \} =  A \cap C_XB$$
+
 ![[sottrazione insieme asimmetrica.PNG]]
 
 dove l'insieme $A \setminus B$ contiene tutti gli elementi di A che non sono in B, ovvero che sono "propietari" di A.
@@ -89,6 +95,7 @@ dove l'insieme $A \setminus B$ contiene tutti gli elementi di A che non sono in 
 Il secondo tipo di differenza è detta _simmetrica_ ed è definita nel modo seguente:
 
 $$ A \;\Delta\; B = (A \setminus B) \cup (B \setminus A) = (A \cup B) \setminus (A \cap B)$$
+
 ![[sottrazione insieme simmetrica.PNG]]
 
 la quale seleziona gli elementi che stanno o in A o in B, ma non in entrambi.

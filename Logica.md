@@ -25,4 +25,4 @@ $$ p \lor q \hspace{1cm} \textrm{che leggiamo 'p oppure q'}$$
 
 esiste inoltre un connettivo detto _implicazione logica_:
 $$ p \implies q \hspace{1cm} \textrm{che leggiamo 'p implica q'}$$
-che viene usata in matematica per indicare una condizione necessaria o sufficiente affinchè
+che viene usata in matematica per indicare una condizione necessaria o sufficiente affinchè susu

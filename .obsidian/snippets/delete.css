@@ -1,3 +1,25 @@
 body > div.modal-container.mod-confirmation > div.modal > div.modal-button-container > button:nth-child(1) {
-    display: none;
-  }
+  display: none;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+div .cm-line {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+div .HyperMD-list-line:last-child {
+  padding-bottom: 5px;
+}
+
+div .cm-formatting-list-ol {
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 5px;
+}

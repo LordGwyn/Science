@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "variabili!!!!!!!!!!.md",
+            "file": "Logica.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "variabili!!!!!!!!!!.md",
+                "file": "Logica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "912153ae8aa887d5",
   "lastOpenFiles": [
-    "variabili!!!!!!!!!!.md",
-    "proprietà commutativa.md",
-    "proprietà associativa.md",
-    "prodotto cartesiano.md",
+    "Logica.md",
     "operazione binaria.md",
-    "ennupla ordinata.md",
+    "prodotto cartesiano.md",
     "insieme.md",
+    "oggetto matematico.md",
+    "funzione.md",
+    "coordinate.md",
     "identità.md",
-    "arietà.md",
-    "attachments/images/schema-simboli-NUMERI1.png"
+    "ennupla ordinata.md",
+    "coppia ordinata.md"
   ]
 }

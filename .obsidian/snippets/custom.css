@@ -1,0 +1,197 @@
+
+/* IMMAGINI CUSTOM */
+
+img[src*="app://local/C%3A%5CUsers%5Cenric%5COneDrive%5CAllegati%20di%20posta%20elettronica%5CDocumenti%5CGitHub%5CScience%5CAttachments%5Cimages%5Ctabellaverit%C3%A0implicazionesingola.PNG?1644157303880"] {
+  width: 30%;
+}
+
+img[src*="app://local/C%3A%5CUsers%5Cenric%5COneDrive%5CAllegati%20di%20posta%20elettronica%5CDocumenti%5CGitHub%5CScience%5CAttachments%5Cimages%5Ctabellaverit%C3%A0implicazionedoppia.PNG?1644157384380"] {
+  width: 30%;
+}
+
+img[src="app://local/C%3A%5CUsers%5Cenric%5COneDrive%5CAllegati%20di%20posta%20elettronica%5CDocumenti%5CGitHub%5CScience%5CAttachments%5Cimages%5Cmiopadre.jpg?1648400379527"] {
+  width: 150%;
+}
+
+/* CSS */
+
+:root {
+  --strong-color: var(--text-normal);
+  --em-color: var(--text-normal);
+}
+
+body > div.modal-container.mod-confirmation > div.modal > div.modal-button-container > button:nth-child(1) {
+  display: none;
+}
+
+h2 {
+  border: none;
+}
+
+.markdown-preview-view h3, .HyperMD-header-3, .cm-header-3 {
+  font-weight: var(--h2-weight) !important;
+}
+
+.markdown-preview-view h4 {
+  text-transform: none;
+  font-size: var(--text-normal);
+  color: var(--h3-color);
+}
+
+.markdown-preview-view h5 {
+  font-size: var(--h4);
+  margin: 15px 0 -15px 0;
+  color: #FBC02D;
+}
+
+.markdown-preview-view h6 {
+  margin: 15px 0 -15px 0;
+}
+
+.markdown-preview-view h6::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: var(--text-normal);
+  transform: translateX(1%);
+}
+
+
+
+h2::before {
+  content: "2.";
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 5px;
+  color: #888;
+  font-weight: 600;
+}
+
+h3::before {
+  content: "3.";
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 5px;
+  color: #888;
+  font-weight: 600;
+}
+
+h4::before {
+  content: "4.";
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 5px;
+  color: #888;
+  font-weight: 600;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+div .cm-line {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.HyperMD-list-line {
+  padding-bottom: 5px !important;
+  padding-left: 22px !important;
+}
+
+ul, ol {
+  margin-block-start: -.75em;
+  margin-block-end: .5em;
+  padding-inline-start: 25px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+ul, ol li:last-child {
+  margin-bottom: 0;
+}
+
+div .cm-formatting-list-ol {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+li::marker {
+  font-size: 16px;
+}
+
+.MJX-TEX {
+  font-size: inherit;
+}
+
+span.math-inline mjx-container {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding-right: 3px;
+  padding-left: 2px;
+}
+
+span.math-inline mjx-container mjx-math{
+  font-size: 20px;
+}
+
+div[align*="center"] {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  background-color: rgb(252, 219, 90);
+  border-radius: 4px;
+  color: black;
+  width: fit-content;
+  padding: .4em .8em;
+  margin: .4em auto;
+
+  /*
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  background-color: rgba(247, 220, 111,.65);
+  border: 2px solid rgb(247, 220, 111); /*194, 185, 102/
+  color: black;
+  width: fit-content;
+  padding: .4em .8em;
+  margin: .4em auto;
+  */
+}
+
+div[align*="center"] span mjx-math{
+  font-size: inherit;
+  font-weight: bold;
+}
+
+center {
+  font-family: Times;
+  font-style: italic;
+  font-size: 20px;
+  width: fit-content;
+  padding: 0 1em;
+  margin: .4em auto;
+  background-color: rgba(0, 0, 0, .1);
+  box-shadow: inset 0px 0px 10px 10px #1D2126;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: .4em 1em !important;
+}
+
+#line_spacing {
+  height: 20px;
+}
+
+td {
+  text-align: center;
+}

@@ -1,8 +1,11 @@
 {
-  "baseFontSize": 16,
-  "cssTheme": "",
+  "baseFontSize": 18,
+  "cssTheme": "Things",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "delete"
-  ]
+    "delete",
+    "custom"
+  ],
+  "theme": "obsidian",
+  "translucency": false
 }

@@ -1,5 +1,5 @@
 # Relazione
-In matematica una relazione è un sottoinsieme del prodotto cartesiano di due o più insiemi.
+<div align="center">In matematica una relazione è un sottoinsieme del prodotto cartesiano di due o più insiemi.</div>
 
 Si distinguono quindi 2 casi:
 

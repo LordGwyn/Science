@@ -4,16 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "912153ae8aa887d5",
+        "id": "9506a2cd57ece738",
         "type": "leaf",
+        "dimension": 56.51933701657459,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "logica.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "6aee7d15b4bf5501"
+      },
+      {
+        "id": "fc597c63e6b73f00",
+        "type": "leaf",
+        "dimension": 43.48066298342542,
         "state": {
           "type": "markdown",
           "state": {
             "file": "logica.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
-        }
+        },
+        "group": "6aee7d15b4bf5501"
       }
     ],
     "direction": "vertical"
@@ -40,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cazzoduroinmutande",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 161.5
   },
   "right": {
     "id": "c4c587e284af29a4",
@@ -79,24 +95,33 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "16af0657b720b02f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 331.5,
     "collapsed": true
   },
-  "active": "912153ae8aa887d5",
+  "active": "9506a2cd57ece738",
   "lastOpenFiles": [
     "logica.md",
-    "oggetto matematico.md",
-    "insieme.md",
+    "coppia ordinata.md",
+    "funzione.md",
     "identità.md",
-    "proprietà commutativa.md",
-    "proprietà associativa.md",
+    "insieme.md",
+    "leggi di DeMorgan.md",
+    "link.md",
+    "assioma.md",
     "prodotto cartesiano.md",
-    "coordinate.md",
-    "coppia ordinata.md"
+    "templates/Tag Footer.md"
   ]
 }

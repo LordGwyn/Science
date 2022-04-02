@@ -9,3 +9,7 @@ $$f:X \rightarrow Y$$
 dove $X$
 
 Il fatto che una funzione abbini elementi reali di Y a i valori di input di X, non significa automaticamente che la funzione debba necessariamente esistere in tutto l'insieme $R$, e un esempio di ciò è la funzione 
+
+___
+Corso:
+#analisi1

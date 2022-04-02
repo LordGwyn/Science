@@ -1,50 +1,69 @@
 # Insiemi
-##### WikipediA
-In matematica, un insieme è un insieme di elementi.  
+
+<div align="center">In matematica, un insieme è un insieme di cose, chiamate elementi.</div>
+
 Gli elementi che compongono un insieme possono essere qualsiasi tipo di [[oggetto matematico]]: numeri, simboli, [[coordinate|punti nello spazio]], [[retta|linee]], altre forme geometriche, variabili o anche altri insiemi.
+
+Alcune definizioni di base:
+1. Un insieme è detto __infinito__ se contiene un numero _infinito_ di elementi, e al contrario è detto __finito__ se contiene un numero _finito_ di elementi.
+2. Due insiemi si dicono __equivalenti__ se contengono gli stessi elementi, anche in ordine diverso. Ad esempio $\{2,4,6,8\} = \{4,2,8,6\}$ e $\{2,4,6,8\} \ne \{2,4,6,7\}$
+3. Gli insiemi si indicano generalmente con una lettera maiuscola.
+4. Gli insiemi più importanti sono:
 
 ![[schema-simboli-NUMERI1.png]]
 
 ## Notazioni insiemi
 La notazione standard è la seguente:
 
-- $X = \{x_1,x_2,x_3,x_4\}$ --> per definire un insieme X (anche detta Roster notation)
+- $X = \{x_1,x_2,x_3,x_4\} \rightarrow$ per definire un insieme X (anche detta Roster notation)
 
-Si usa la scrittura "..." come short-hand per non scrivere tutti gli elementi di un insieme, sottointendendo che si stia seguendo un pattern implicito:
+Si può usare la scrittura "$\dots$" come short-hand per non scrivere tutti gli elementi di un insieme, sottointendendo che si stia seguendo un pattern implicito:
 $$ X = \{0,2,4,...,222,224,226\}$$
-e la medesima scrittura è utile per delineare che un insieme è infinto:
+la medesima scrittura è utile per delineare che un insieme è infinito:
 - $Z = \{...,-2,-1,0,+1,+2,...\}$
 - $Z^+ = \{0,+1,+2,...\}$
 - $Z^- = \{...,-2,-1,0\}$
+<div id="line_spacing"></div>
+##### Notazione importante:
+La notazione "set-builder" consiste nella costruizione un insieme partendo da un insieme più grande attraverso l'applicazione di un [[logica#Proposizioni Aperte o Predicati|predicato]] sugli elementi di quest'ultimo:
 
-**Notazione importante:**
-La notazione "set-builder" consiste nella costruizione un insieme partendo da un insieme più grande attraverso l'applicazione di una condizione sugli elementi di quest'ultimo:
+$$X = \{x\hspace{1mm}|\;\forall x \in R, f(x)\}\hspace{.5cm} \text{or} \hspace{.5cm} X = \{x\hspace{1mm}:\;\forall x \in R, f(x)\}$$
 
-- $X = \{x\hspace{1mm}|\hspace{1mm}f(x), x \in R\}$
+questa notazione è "semplificabile" nel modo seguente:
 
-Si possono identificare 3 parti che compongono questa notazione (dentro le graffe):
-1.	la variabile $x$
-2.	il simbolo "|" (tale che)
-3.	$f(x), x \in R$, ovvero la regola che definisce tutti i valori che assume la variabile (i quali a loro volta formeranno l'insieme $X$)
+$$X = \{\text{espressione} : \text{regola}\},$$
+
+dove gli elementi di $X$ sono intesi essere tutti i valori di "espressione" che sono specificati dalla "regola". Ad esempio: si vuole definire l'insieme $E$ come l'insieme dei numeri naturali pari attraverso questa notazione. 
+Alcuni modi per farlo sono:
+
+$$E = \{2n:n\in \Bbb{N}\} = \{n \in \Bbb{N}: n\text{ is even}\}  = \{n:n=2k,k \in \Bbb{N}\}$$
+
+
+---
+## Insieme vuoto
+Esiste un insieme speciale che gioca un ruolo importante in matematica, ed è l'insieme $\{\}$, che non possiede elementi. Tale insieme è detto __insieme vuoto__ e viene indicato dal simbolo $\emptyset$, perciò $\emptyset = \{\}$.
+
 
 ---
 ## Cardinalità degli insiemi
-`La cardinalità di un insieme indica il numero di elementi presenti al suo   interno, ad esempio:`
+<div align="center">La cardinalità di un insieme indica il numero di elementi presenti al suo interno e si indica attraverso i simboli "||".</div>
+ad esempio:
 
 $$ X = \{1,2,3,4\} \rightarrow |X| = 4  $$
 
-Si dice inoltre che due insiemi condividono una* relazione 1-1* se posseggono la medesima .
+Si dice inoltre che due insiemi condividono una* relazione 1-1* se posseggono la medesima cardinalità.
 
 ### Casi particolari di cardinalità:
-L'elenco degli elementi di alcuni insiemi è infinito o infinito. Ad esempio, l'insieme $N$ dei numeri naturali è infinito. Infatti, tutti gli insiemi speciali di numeri menzionati nella sezione precedente, sono infiniti. `Gli insiemi infiniti hanno cardinalità infinita`.
+- L'insieme vuoto ha cardinalità 0: $|\emptyset| = 0$.
+- Il numero di elementi di alcuni insiemi è infinito. Ad esempio l'insieme $N$ dei numeri naturali è infinito, infatti tutti gli insiemi speciali menzionati nella sezione precedente ($\Bbb{N}$,$\Bbb{Z}$,$\Bbb{Q}$,$\Bbb{R}$,...) sono infiniti. Gli insiemi infiniti hanno cardinalità infinita.
 
 ---
 ## L'insieme della parti
-`L'insieme delle parti di X è l'insieme di tutti i sottoinsiemi di X.`
+<div align="center">L'insieme delle parti di <span class="math display">X</span>, indicato dal simbolo <span class="math display">\mathcal{P}(X)</span>, è l'insieme di tutti i sottoinsiemi di <span class="math display">X</span>.</div>
 
-L'insieme vuoto e X stesso sono elementi dell'insieme delle parti di X, perché entrambi sono sottoinsiemi di X. Ad esempio, la potenza dell'insieme {1, 2, 3} è {∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}. L'insieme delle parti di X è comunemente scritto come $P(X)$ o $2^x$.
+L'insieme vuoto e $X$ stesso sono elementi dell'insieme delle parti di $X$, perché entrambi sono sottoinsiemi di $X$. Ad esempio, la potenza dell'insieme {1, 2, 3} è {∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}. L'insieme delle parti di X è comunemente scritto come $P(X)$ o $2^x$.
 
-In generale si può dire che la potenza $P(X)$ di un insieme X è scrivibile come $2^n$, dove n è il rango di X, ovvero il numero di elementi appartenenti all'insieme. Ad esempio la potenza dell'insieme {1, 2, 3} è $2^3 = 8$.
+In generale si può dire che la potenza $\mathcal{P}(X)$ di un insieme X è scrivibile come $2^n$, dove n è il rango di X, ovvero il numero di elementi appartenenti all'insieme. Ad esempio la potenza dell'insieme {1, 2, 3} è $2^3 = 8$.
 
 ---
 ## Insieme complementare
@@ -103,7 +122,11 @@ la quale seleziona gli elementi che stanno o in A o in B, ma non in entrambi.
 ---
 
 Tags:
+#prerequisiti
 #differenza_insiemi
 #cardinalità 
 #unione
 #intersezione
+
+Corso:
+#analisi1

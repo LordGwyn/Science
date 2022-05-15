@@ -1,6 +1,0 @@
----
-Tags:
-#tag
-
-Corso:
-#tag

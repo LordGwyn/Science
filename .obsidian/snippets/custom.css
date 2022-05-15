@@ -1,23 +1,46 @@
 
-/* IMMAGINI CUSTOM */
+/* CUSTOM IMG */
 
-img[src*="app://local/C%3A%5CUsers%5Cenric%5COneDrive%5CAllegati%20di%20posta%20elettronica%5CDocumenti%5CGitHub%5CScience%5CAttachments%5Cimages%5Ctabellaverit%C3%A0implicazionesingola.PNG?1644157303880"] {
+img[alt*="tabellaveritàimplicazionesingola.PNG"] {
   width: 30%;
 }
 
-img[src*="app://local/C%3A%5CUsers%5Cenric%5COneDrive%5CAllegati%20di%20posta%20elettronica%5CDocumenti%5CGitHub%5CScience%5CAttachments%5Cimages%5Ctabellaverit%C3%A0implicazionedoppia.PNG?1644157384380"] {
+img[alt*="tabellaveritàimplicazionedoppia.PNG"] {
   width: 30%;
 }
 
-img[src="app://local/C%3A%5CUsers%5Cenric%5COneDrive%5CAllegati%20di%20posta%20elettronica%5CDocumenti%5CGitHub%5CScience%5CAttachments%5Cimages%5Cmiopadre.jpg?1648400379527"] {
+img[alt="miopadre.jpg"] {
   width: 150%;
 }
+
+img[alt="schema-simboli-NUMERI1.png"]{
+  width: 100%;
+}
+
+.operazioneBinaria img:nth-child(1) {
+  width: 30%;
+  box-shadow: none;
+  background-color: transparent;
+  filter: invert(1);
+}
+
+.proprietàcommutativa img:nth-child(1) {
+  width: 40%;
+  box-shadow: none;
+  background-color: transparent;
+  filter: invert(1);
+}
+
+/* CUSTOM Tables */
+
+
 
 /* CSS */
 
 :root {
   --strong-color: var(--text-normal);
   --em-color: var(--text-normal);
+  font-size: 120%; /*scala il fontsize di tutto*/
 }
 
 body > div.modal-container.mod-confirmation > div.modal > div.modal-button-container > button:nth-child(1) {
@@ -45,19 +68,17 @@ h2 {
 }
 
 .markdown-preview-view h6 {
-  margin: 15px 0 -15px 0;
+  margin: 1em 0 15px 0;
 }
 
 .markdown-preview-view h6::after {
   content: "";
   display: block;
-  width: 20%;
+  width: 17.5%;
   height: 1px;
   background-color: var(--text-normal);
-  transform: translateX(1%);
+  margin-top: 5px;
 }
-
-
 
 h2::before {
   content: "2.";
@@ -95,7 +116,7 @@ img {
 
 div .cm-line {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .HyperMD-list-line {
@@ -118,12 +139,12 @@ ul, ol li:last-child {
 }
 
 div .cm-formatting-list-ol {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 li::marker {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .MJX-TEX {
@@ -138,20 +159,85 @@ span.math-inline mjx-container {
   padding-left: 2px;
 }
 
-span.math-inline mjx-container mjx-math{
-  font-size: 20px;
+span.math-inline mjx-container mjx-math {
+  font-size: inherit;
 }
+
+/***************************************************************************************************************/
+
+div.definizione {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  padding: 1em;
+  margin: calc(4px + .4em) auto;
+  /* style */
+  border: 3px #154360;
+  border-style: solid dashed;
+  outline: 4px solid #BFC9CA;
+  font-family: serif;
+  background-color: #BFC9CA;
+  color: black;
+}
+
+div.definizione span mjx-math {
+  font-size: .95em;
+  font-weight: lighter;
+}
+
+div.definizione span.l, span.c, span.r {
+  display: inline-grid;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+div.definizione span.l mjx-container {
+  justify-self: baseline;
+}
+
+div.definizione span.c mjx-container {
+  justify-self: center;
+}
+
+div.definizione span.r mjx-container {
+  justify-self: end;
+}
+
+div.due_uno {
+  display: inline-grid;
+  width: 100%;
+  height: fit-content;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+div.definizione div.due_uno span.l {
+  justify-self: baseline;
+}
+
+div.definizione div.due_uno span.c {
+  justify-self: center;
+}
+
+div.definizione div.due_uno span.r {
+  justify-self: end;
+}
+
+/****************************************************************************************************************/
+
 
 div[align*="center"] {
   font-style: italic;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: -.5px;
-  background-color: rgb(252, 219, 90);
+  /*background-color: rgb(252, 219, 90);*/
   border-radius: 4px;
-  color: black;
-  width: fit-content;
-  padding: .4em .8em;
+  border: 5px double #0057c1;
+  color: var(--text-normal);
+  width: 80%;
+  padding: .15em .85em .3em .8em;
   margin: .4em auto;
 
   /*
@@ -168,10 +254,11 @@ div[align*="center"] {
   */
 }
 
-div[align*="center"] span mjx-math{
+div[align*="center"] span {
   font-size: inherit;
-  font-weight: bold;
+  font-weight: 100;
 }
+
 
 center {
   font-family: Times;
@@ -189,9 +276,19 @@ mjx-container[jax="CHTML"][display="true"] mjx-math {
 }
 
 #line_spacing {
-  height: 20px;
+  height: .3em;
 }
 
-td {
-  text-align: center;
+#bigText {
+  font-size: var(--h3);
+  font-weight: bold;
+}
+
+.text_divisor::before {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: var(--background-modifier-border);
+  margin: 2em 0 .3em 0;
 }

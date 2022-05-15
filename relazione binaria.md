@@ -1,22 +1,44 @@
-# Relazione binaria
-<div align="center">In matematica, una relazione binaria definita di un <span style="color: #154360; font-weight: 500">insieme</span> è un elenco di <span style="color: #154360; font-weight: 500">coppia ordinate</span> di elementi appartenenti all'insieme. In modo equivalente, una relazione binaria è un sottoinsieme del <span style="color: #154360; font-weight: 500">prodotto cartesiano</span> di un insieme con se stesso.</div>
+---
+tags:
+aliases:
+cssclass: 
+---
+# Relazione Binaria
+###### Definizione:
+*Una relazione binaria $R$ è un sottoinsieme del [[prodotto cartesiano]] $X \times Y$ da un [[insieme]] $X$ a un insieme $Y$*:
+<div align="center">
+<span class="math display">R \subseteq A \times B</span></div>
 
-$\rightarrow$ [[insieme]]
-$\rightarrow$ [[coppia ordinata|coppie ordinate]]
-$\rightarrow$ [[prodotto cartesiano]]
+$\rightarrow$ [[prodotto cartesiano]], [[insieme]]
+<span id="bigText" class="text_divisor">Note: </span>
 
-## Definizione
 Una relazione binaria è un tipo di [[relazione]] caratterizzata dal fatto che associa due elementi distinti (anche appartenenti ad uno stesso [[insieme]]), formando una [[coppia ordinata]] del tipo $(x,y)$.
 In matematica la definizione di una relazione binaria si basa sul concetto di [[prodotto cartesiano]] ed enuncia che un qualsiasi sottoinsieme di questo sia una relazione binaria, poichè di per sè un prodotto cartesiano è un insieme definito sulla [[prodotto cartesiano|relazione binaria più generica possibile tra due elementi distinti]] $x$ e $y$ appartenenti a due insiemi $X$ e $Y$, quindi qualsiasi sottoinsieme del prodotto cartesiano è in realtà un insieme definito su una relazione "più stretta" come ad esempio:
 - $x = 2y$$\hspace{0.5cm}$*"$x$ deve essere il doppio di $y$"*
 - $x = \frac{y}{2}$ $\hspace{0.5cm}$*"$x$ deve essere la metà di $y$"*
 
+<span id="bigText" class="text_divisor">Esempi: </span>
+
+***
+
+Tags:  
+[#tag](app://obsidian.md/index.html#tag)
+#dafinire
+
+Corso:  
+[#tag](app://obsidian.md/index.html#tag)
+
+
+# Relazione binaria
+
+
+
 ### Dimostrazione
 
-Dati due insiemi A e B, il loro [[prodotto cartesiano]] è l'insieme delle coppie ordinate definito nel modo seguente:
-$$ X \times Y := \{(x,y) : x \in X , y \in Y\} $$
-
-Una relazione binaria *R* è un [[sottoinsieme]] di $X \times Y$. L' insieme X è l' insieme di partenza di R, ed è chiamato *dominio*, mentre l' insieme Y è quello di destinazione di R ed è chiamato *codominio*.
+Dati due insiemi $A$ e $B$, il loro [[prodotto cartesiano]] è l'insieme delle coppie ordinate definito nel modo seguente:
+$$ A \times B := \{(x,y) : x \in A , y \in B\} $$
+ 
+Una relazione binaria $R$ è un [[sottoinsieme]] di $A \times B$. L' insieme $A$ è l' insieme di partenza di $R$, ed è chiamato **dominio**, mentre l' insieme $B$ è quello di destinazione di $R$ ed è chiamato **codominio**.
 Essendo quindi R un insieme i quali elementi sono coppie ordinate, la scrittura seguente:
 $$(x,y) \in R \hspace{1cm} \textit{o} \hspace{1cm} xRy$$
 si legge "x è relazionato a y tramite la relazione R".

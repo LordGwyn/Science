@@ -1,0 +1,1 @@
+_Questa nota fa riferimento a $\rightarrow$ [[link]]_

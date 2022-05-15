@@ -1,10 +1,7 @@
-_Caso più semplice del concetto più generale di $\rightarrow$ [[n-upla ordinata]]._
+_Caso specifico del concetto più generale di $\rightarrow$ [[n-upla ordinata]]._
 # Coppia Ordinata
 ###### Definizione: 
-<br>
-<div align="center">
-In matematica con il termine "coppia ordinata" si intende una collezione di due oggetti racchiusi da due parentesi tonde e separati da una virgola, in modo da poter distinguere un primo componente da un secondo componente
-</div>
+In matematica con il termine "coppia ordinata" si intende una collezione di due oggetti racchiusi da due parentesi tonde e separati da una virgola, in modo da poter distinguere un primo componente da un secondo componente.
 
 $\rightarrow$ [[link]], [[link]]
 

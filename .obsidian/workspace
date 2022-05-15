@@ -4,32 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "9506a2cd57ece738",
+        "id": "1cbda7b6d4edcfe9",
         "type": "leaf",
-        "dimension": 56.51933701657459,
+        "dimension": 65.69416498993964,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "logica.md",
+            "file": "proprietà distributiva.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "6aee7d15b4bf5501"
+        "group": "4ae181057f271aee"
       },
       {
-        "id": "fc597c63e6b73f00",
+        "id": "8a5e89ec95f265be",
         "type": "leaf",
-        "dimension": 43.48066298342542,
+        "dimension": 34.30583501006036,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "logica.md",
+            "file": "proprietà distributiva.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "6aee7d15b4bf5501"
+        "group": "4ae181057f271aee"
       }
     ],
     "direction": "vertical"
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "assioma",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,23 +69,41 @@
       }
     ],
     "direction": "horizontal",
-    "width": 161.5
+    "width": 180.5
   },
   "right": {
     "id": "c4c587e284af29a4",
     "type": "split",
     "children": [
       {
-        "id": "1d077b759bc999a3",
+        "id": "cb8e5478e9b35ca6",
         "type": "tabs",
         "children": [
           {
-            "id": "607aafc420e500ca",
+            "id": "3c14d54625fe55fd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "proprietà distributiva.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "411df8d92dcf301f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dc386d819e4fd57",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "logica.md",
+                "file": "proprietà distributiva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,33 +113,25 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "16af0657b720b02f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
+    "width": 275.5,
     "collapsed": true
   },
-  "active": "9506a2cd57ece738",
+  "active": "1cbda7b6d4edcfe9",
   "lastOpenFiles": [
+    "proprietà distributiva.md",
+    "proprietà riflessiva.md",
     "logica.md",
-    "coppia ordinata.md",
-    "funzione.md",
-    "identità.md",
-    "insieme.md",
-    "leggi di DeMorgan.md",
-    "link.md",
-    "assioma.md",
-    "prodotto cartesiano.md",
-    "templates/Tag Footer.md"
+    "ipotesi.md",
+    "templates/Highlighted link.md",
+    "templates/Untitled.md",
+    "templates/Definition.md",
+    "templates/Line spacing.md",
+    "templates/Math expression.md",
+    "templates/New Note.md"
   ]
 }

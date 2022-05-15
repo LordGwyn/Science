@@ -20,7 +20,7 @@ $$p(x): \text{The integer x is even.}$$
 inoltre se una proposizione dice qualcosa riguardo a 2 o più variabili, va indicata in questo modo: $p(x,y,z,...)$
 
 ##### ATTENZIONE:  (Dio càn)
-Non è sempre detto che una proposizione contenente una variabile sia aperta!!!!
+Non è sempre detto che una proposizione contenente una variabile sia sempre "aperta" !!!!
 Perchè, nonostante la proposizione:
 $$q(x): \text{If an integer x is a multiple of 6, then x is even.}$$
 contenga la variabile $x$, è comunque possibile dire che $q(x)$ sarà sempre vera, indipendentemente dal variare di $x$, mentre appunto la proposizione:
@@ -79,12 +79,12 @@ Esempio:
 
 Si voglione mettere in relazione le proposizioni "il cielo è nuvoloso" e "piove", in modo da capire quale è la premessa e quale è la conclusione dell'implicazione. Si costruisce quindi una tabella di verità verificando per ogni riga la coerenza logica delle due proposizioni:
 
-||il cielo è nuvoloso | piove | $p \implies q$
+|-|il cielo è nuvoloso | piove | coerenza logica della coesistenza di $p$ e $q$
 -|-|-|-
-1|V|V|V
-2|V|F|V
-3|F|V|F
-4|F|F|V
+1|V|V|😎👍
+2|V|F|😎👍
+3|F|V|❌😤❌
+4|F|F|😎👍
 
 La riga 1 e la 4 non hanno problemi perchè è coerente sia il fatto che sia nuvoloso e che piova, sia che non sia nuovoloso e che non piova, per questo entrambe sono vere nell'implicazione.
 La riga 2 è coerente anch'essa poichè è plausibile che il cielo sia nuvoloso, ma non piova.
@@ -138,7 +138,7 @@ $$\forall n \in Z, 2n \; \text{is even}\hspace{.5cm}\text{or}\hspace{.5cm} \fora
 
 in particolare il quantificatore $\forall$ è detto "quantificatore universale", mentre $\exists$ è detto "quantificatore esistenziale".
 
-I quantificatori sono quindi dei simboli che aiutano a definire una "quantita", qualora facciano riferimento a delle proposizioni aperte del tipo $p(x)$, (che assumono un valore di verità dipendentemente da una variabile), e questa caratterisca è fondamentale, perchè ha il potere di trasformare una proposizione aperta in una proposizione normale, attribuendole un valore di verità senza alterarne il contenuto. 
+I quantificatori sono quindi dei simboli che aiutano a definire una "quantità", qualora facciano riferimento a delle proposizioni aperte del tipo $p(x)$, (che assumono un valore di verità dipendentemente da una variabile), e questa caratterisca è fondamentale perchè ha il potere di trasformare una proposizione aperta in una proposizione normale, attribuendole un valore di verità senza alterarne il contenuto. 
 Ad esempio si prende in considerazion la proposizione:
 
 $$p(x):\text{(x is even) ⇒ (x is a multiple of 6)}$$
@@ -150,7 +150,7 @@ $$p(x):\forall x \in \Bbb{Z},\text{(x is even) ⇒ (x is a multiple of 6)}$$
 si sta andando a specificare che __per ogni__ $x$ che è numero pari, allora $x$ deve essere multiplo di 6, e non è questo il caso, perchè alcuni lo sono ed altri no, quindi $p(x)$, non vale __per ogni__ $x$, quindi $p(x)$ (con il quantificatore $\forall$) diventa falsa. __Non è più una proposizione aperta__.
 Similarmente questa considerazione è applicabile anche al quantificatore $\exists$:
 $$p(x):\exists x \in \Bbb{Z},\text{(x is even) ⇒ (x is a multiple of 6)}$$
-solo che sta volta $p(x)$ sarà vera, perchè esiste __almeno una__ $x$ pari, multiplo di 6.
+solo che sta volta $p(x)$ sarà vera, perchè esiste __almeno un__ $x$ pari, multiplo di 6.
 <div id="line_spacing"></div>
 
 E' utile soffermarsi infine sulla negazione di una proposizione quantificata.
@@ -169,12 +169,15 @@ e viceversa:
 <span class="math display">\neg(\exists x \in \Bbb{Z}, p(x)) \iff \forall x \in \Bbb{Z}, \neg p(x)</span>
  </div>
 
+^37e9cb
+
 
 ___
 ## Regole di dimostrazione
 La proposizione $p \implies q$ può essere espressa in varie altre forme logicamente equivalenti a questa. Tali forme rappresentano delle __regole di dimostrazione__ utili a riottenere l'implicazione originaria per la dimostrazione di [[teorema|teoremi]].
 
 _roba correlata_ ($\rightarrow$ [[leggi di DeMorgan]])
+
 
 Di dimostrazioni ne esistono 2 categorie: quella __diretta__ e quelle __indirette__.
 
@@ -224,13 +227,13 @@ Partendo dal presupposto che non si conosce il valore di verità di $P$, il prim
 <center>Se considero il numero <span class="math display">\sqrt{2}</span>, allora è razionale</center>
 
 e da qua si procede con la dimostrazione diretta, fino a quando non si otterrà uno statement conclusivo $r$ che si dimostra contraddittorio. 
-Se quindi $\sqrt{2}$ è razionale allora:
+Se quindi $\sqrt{2}$ è **razionale** allora:
 $$\sqrt{2} = \frac{a}{b} \; \textrm{con }a,b \in Z$$
 
 Se questa frazione è completamente ridotta è possibile dire che $a$ e $b$ non possono essere entrambi pari (altrimenti la frazione sarebbe ulteriormente semplificabile). 
-Se si eleva al quadrato da entrambi i lati  si ottiene:
+Se si riarrangia un po' l'espressione e si eleva al quadrato da entrambi i lati  si ottiene:
 $$ a^2  = 2b^2$$
-e da questo segue che $a^2$ è pari (perchè è $2 \; \times$ un numero qualsiasi). Inoltre, attraverso un teorema già dimostrato, il fatto che $a^2$ sia pari implica che anche $a$ è pari, quindi si può dire che $a = 2c$. Quindi secondo l'affermazione di prima $b$ deve essere necessariamente dispari (questa è la proposizione $r$ che verrà usata per contraddire la conclusione della dimostrazione). 
+e da questo segue che $a^2$ è pari (perchè è $2 \; \times$ un numero qualsiasi). Inoltre, attraverso un teorema già dimostrato, il fatto che $a^2$ sia pari implica che anche $a$ è pari, quindi si può dire che $a = 2c$. Quindi secondo l'affermazione di prima, $b$ deve essere necessariamente dispari (questa è la proposizione $r$ che verrà usata per contraddire la conclusione della dimostrazione). 
 Detto questo si sostituisce $a$ con $2c$ nell'equazione e si ottiene:
 $$\displaylines{(2c)^2 = 2b^2 \\ 4c^2 = 2b^2 \\ b^2 = 2c^2}$$
 che dimostra che $b^2$ è pari, e di conseguenza $b$ è pari, portando ad una contradizione del tipo $r \land \neg r$ dove $r$ può essere sia "$b$ è pari", sia "$b$ non è pari", questo non ha inportanza perchè tanto alla fine la proposizione $r \land \neg r$ sarà sempre negativa.
@@ -263,7 +266,7 @@ questa congettura (che per comodità verrà chiama "$S$") prevede che preso un n
 Per proseguire con la dimostrazione per induzione bisogna iniziare a dimostrare un caso in cui, dato un numero $n_0$, sia vera la regola $S(n_0)$ e per comodità si sceglie ==$n_0 = 1$== dato che è già stato dimostrato vero attraverso dimostrazione diretta, per l'appunto:
 $$S_1 = 1 + (1^2 - 1) = 1$$
 
-Adesso serve dimostrare la seconda condizione indicata dal teorema: "per ogni $n \gt n_0$, se $S(n)$ è vero, allora $S(n+1)$ è vero", e per dimostrarla è utile soffermarsi sulla parte del "per ogni", che implica il fatto che non è possibile andare a dimostrare caso per caso ogni numero intero maggiore di $n_0$. Sarà quindi necessario l'uso di variabili, quindi scritta in linguaggio logico, la seconda condizione diventa $\forall n \gt 1, \;  S_n \implies S_{n+1}$ che significa che per ogni $n \gt 1$, bisogna dimostrare che se $1+3+5+7+\dots+(2n-1) = n^2 \implies1+3$$+5+7+\dots+(2(n+1)-1) = (n+1)^2$.
+Adesso serve dimostrare la seconda condizione indicata dal teorema: "per ogni $n \gt n_0$, se $S(n)$ è vero, allora $S(n+1)$ è vero", e per dimostrarla è utile soffermarsi sulla parte del "per ogni", che implica il fatto che non è possibile andare a dimostrare caso per caso ogni numero intero maggiore di $n_0$. Sarà quindi necessario l'uso di variabili, quindi scritta in linguaggio logico, la seconda condizione diventa $\forall n \gt 1, \;  S_n \implies S_{n+1}$ che significa che per ogni $n \gt 1$, bisogna dimostrare che: $$1+3+5+7+\dots+(2n-1) = n^2 \implies1+3+5+7+\dots+(2(n+1)-1) = (n+1)^2$$
 
 La dimostrazione è la seguente:
 $$

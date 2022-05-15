@@ -1,6 +1,6 @@
 # Prodotto Cartesiano
 ###### Definizione:
-In matematica il prodotto cartesiano di due [[insieme|insiemi]] $A$ e $B$ è l'insieme indicato come "$A×B$" di tutte le [[coppia ordinata|coppie ordinate]] $(a,b)$, definito come:
+In matematica il prodotto cartesiano di due [[insieme|insiemi]] $A$ e $B$ è l'insieme indicato come "$A×B$" di tutte le [[coppia ordinata|coppie ordinate]] $(a,b)$ definito come:
 
 <div align="center"><span class="math display">A\times B=\{(a,b):a\in A,b\in B\}</span></div>
 

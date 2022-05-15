@@ -8,10 +8,34 @@ Alcune definizioni di base:
 1. Un insieme è detto __infinito__ se contiene un numero _infinito_ di elementi, e al contrario è detto __finito__ se contiene un numero _finito_ di elementi.
 2. Due insiemi si dicono __equivalenti__ se contengono gli stessi elementi, anche in ordine diverso. Ad esempio $\{2,4,6,8\} = \{4,2,8,6\}$ e $\{2,4,6,8\} \ne \{2,4,6,7\}$
 3. Gli insiemi si indicano generalmente con una lettera maiuscola.
-4. Gli insiemi più importanti sono:
 
-![[schema-simboli-NUMERI1.png]]
+## Insiemi Numerici
+|Simboli|Significato|
+|-|-|
+|$\Bbb{N}$|Insieme dei numeri **naturali** $\{0,1,2,3,\dots\}$|
+|$\Bbb{Z}$|Insieme dei numeri **interi** $\{\dots,-3,-2,-1,0,+1,+2,+3,\dots\}$|
+|$\Bbb{Z}^+$|Insieme dei numeri **interi positivi** (zero escluso)|
+|$\Bbb{Z}^-$|Insieme dei numeri **interi negativi** (zero escluso)|
+|$\Bbb{Q}$|Insieme dei numeri **razionali** $\{\dots,-\frac{1}{2},0,+\frac{1}{2},\dots\}$|
+|$\Bbb{Q}^+$|Insieme dei numeri **razionali positivi** (zero escluso)|
+|$\Bbb{Q}^-$|Insieme dei numeri **razionali negativi** (zero escluso)|
+|$\Bbb{R}$|Insieme dei numeri **reali** $\{\dots,-\frac{1}{2},0,+\frac{1}{2},\sqrt{2},\sqrt{3},e,\pi,\dots\}$|
+|$\Bbb{R}^+$|Insieme dei numeri **reali positivi** (zero escluso)|
+|$\Bbb{R}^-$|Insieme dei numeri **reali negativi** (zero escluso)|
+|$\Bbb{C}$|Insieme dei numeri **complessi** $\{riempire\}$|
 
+
+### Insieme  $\Bbb{N}$
+L'insieme è formato dai numeri $0, 1, 2, \dots$ 
+In esso sono definite le operazioni di somma e prodotto,  che godono delle ben note proprietà [[proprietà commutativa|commutativa]], [[proprietà associativa|associativa]] e [[proprietà distributiva|distributiva]].
+
+### Insieme  $\Bbb{Z}$
+
+### Insieme  $\Bbb{Q}$
+
+### Insieme  $\Bbb{Z}$
+
+***
 ## Notazioni insiemi
 La notazione standard è la seguente:
 
@@ -61,20 +85,22 @@ Si dice inoltre che due insiemi condividono una* relazione 1-1* se posseggono la
 ## L'insieme della parti
 <div align="center">L'insieme delle parti di <span class="math display">X</span>, indicato dal simbolo <span class="math display">\mathcal{P}(X)</span>, è l'insieme di tutti i sottoinsiemi di <span class="math display">X</span>.</div>
 
-L'insieme vuoto e $X$ stesso sono elementi dell'insieme delle parti di $X$, perché entrambi sono sottoinsiemi di $X$. Ad esempio, la potenza dell'insieme {1, 2, 3} è {∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}. L'insieme delle parti di X è comunemente scritto come $P(X)$ o $2^x$.
+L'insieme vuoto e $X$ stesso sono elementi dell'insieme delle parti di $X$, perché entrambi sono sottoinsiemi di $X$. Ad esempio, l'insieme delle parti di {1, 2, 3} è: 
+$$∅, \{1\}, \{2\}, \{3\}, \{1, 2\}, \{1, 3\}, \{2, 3\}, \{1, 2, 3\}$$ 
+L'insieme delle parti di $X$ è comunemente scritto come $\mathcal{P}(X)$ o $2^x$.
 
 In generale si può dire che la potenza $\mathcal{P}(X)$ di un insieme X è scrivibile come $2^n$, dove n è il rango di X, ovvero il numero di elementi appartenenti all'insieme. Ad esempio la potenza dell'insieme {1, 2, 3} è $2^3 = 8$.
 
 ---
 ## Insieme complementare
-Dato un insieme A, sottoinsieme di X si definisce ==*complementare*== di A in X, il sottoinsieme:
+Dato un insieme A, sottoinsieme di X si definisce **complementare** di A in X, il sottoinsieme:
 
 $$ CA=\{x \in X \; | \; x \notin A\} $$
 
 talvolta per specificare l'insieme di riferimento del complementare, viene usata la notazione $C_XA$.
 Alcune propretà base degli insiemi complementari vengono immediate:
 - $CX = \emptyset$
-- $C\emptyset = X$
+- $C\emptyset = X$(qualsiasi insieme)
 - $C(CA) = A$
 
 ---

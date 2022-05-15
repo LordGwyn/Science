@@ -1,19 +1,29 @@
-
+---
+tags:
+aliases:
+cssclass: 
+---
 # Teorema
-Definizione:
-<div align="center">Un teorema è un'affermazione che è stata dimostrata vera da un tipo speciale di argomento logico chiamato "dimostrazione rigorosa"</div>
+###### Definizione:
+*Un teorema è un'affermazione che è stata dimostrata vera da un tipo speciale di argomento logico chiamato [[logica#Regole di dimostrazione|dimostrazione rigorosa]]*
 
-$\rightarrow$_[[logica#Regole di dimostrazione|dimostrazione rigorosa]]_
+$\rightarrow$ [[logica#Regole di dimostrazione|dimostrazione rigorosa]]
+
+<span id="bigText" class="text_divisor">Note: </span>
 
 Un qualsiasi teorema è formato da due parti:
-1. l'[[teorema#Enunciato|enunciato]], ossia la proposizione che esprime l'[[logica#Implicazione logica|implicazione logica]] nella forma di "Ipotesi $\implies$ Tesi"
-2. la [[teorema#dimostrazione|dimostrazione]], ossia il processo deduttivo che permette di ricavare il valore di verità dell'enunciato.
-___
+1. L'[[teorema#Enunciato|enunciato]], ossia la proposizione che esprime l'[[logica#Implicazione logica|implicazione logica]] nella forma di "Ipotesi $\implies$ Tesi"
+2. La [[teorema#dimostrazione|dimostrazione]], ossia il processo deduttivo che permette di ricavare il valore di verità dell'enunciato.
+
+***
 
 ## Enunciato
-<div align="center">In matematica, l'enunciato è una qualsiasi espressione linguistica o simbolica per cui si può stabilire con certezza se è vera oppure se è falsa.</div>
+###### Definizione:
+*In matematica, l'enunciato è una qualsiasi espressione linguistica o simbolica per cui si può stabilire con certezza se è vera oppure se è falsa.*
 
-Esempi:
+$\rightarrow$ [[link]], [[link]]
+
+<span id="bigText" class="text_divisor">Esempi: </span>
 - La luna è un satellite
 - Parigi è la capitale della Germania
 
@@ -38,12 +48,15 @@ ___
 
 ## Dimostrazione
 In un impianto dimostrativo del tipo __ipotesi__ $\implies$ __tesi__, il processo logico che consente di verificarte la validità di tale proposizione è detto __dimostrazione__:
-<div align="center"> Una dimostrazione matematica è un processo deduttivo che permette di verificare la validità dell'enunciato di un teorema, e che prevede di mostrare che la validità delle ipotesi implica la validità della tesi
-</div>
 
+###### Definizione:
+*Una dimostrazione matematica è un processo deduttivo che permette di verificare la validità dell'enunciato di un teorema, e che prevede di mostrare che la validità delle ipotesi implica la validità della tesi.*
 
+$\rightarrow$ [[link]], [[link]]
+
+<span id="bigText" class="text_divisor">Esempi: </span>
 Esistono vari tipi di dimostrazione:
-- Dimostrazione diretta
+- [[logica#Dimostrazione diretta|Dimostrazione diretta]]
 - [[logica#Regole di dimostrazione#Contronominale|Dimostrazione contronominale]]
 - [[logica#Regole di dimostrazione#Dimostrazione per assurdo|Dimostrazione per assurdo]]
 - [[Logica#Regole di dimostrazione#Dimostrazione per induzione|Dimostrazione per induzione]]
@@ -57,7 +70,13 @@ Esistono vari tipi di dimostrazione:
 
 
 
+***
 
+Tags:  
+[#tag](app://obsidian.md/index.html#tag)
+
+Corso:  
+[#tag](app://obsidian.md/index.html#tag)
 
 
 

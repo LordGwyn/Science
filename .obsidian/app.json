@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": false,
   "legacyEditor": false,
   "livePreview": false,
-  "communityPluginSortOrder": "download"
+  "communityPluginSortOrder": "download",
+  "useMarkdownLinks": false
 }

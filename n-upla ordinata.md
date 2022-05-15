@@ -6,8 +6,10 @@ Definizione
 <div align="center">
 <span class="math display">definizione</span></div>
 
-$\rightarrow$ [[link]], [[link]]
+$\rightarrow$ [[logica#Proposizione logica o Statement]], [[link]]
 
 Note
 
 ---
+
+>  "Dio cane" - Martin Luther King Jr.

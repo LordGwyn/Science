@@ -1,0 +1,1 @@
+<span class="teorema"> <% tp.file.selection() %> </span>

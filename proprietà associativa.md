@@ -6,15 +6,28 @@ cssclass:
 # Proprietà Associativa
 ###### Definizione:
 In matematica, la proprietà associativa è una proprietà di alcune [[operazione binaria|operazioni binarie]], che vuol dire che riorganizzando le parentesi in un'espressione non cambierà il risultato della medesima.
-Formalmente, un'[[operazione binaria]] su un [[insieme]] $A$ si dice associativa se soddisfa la legge associativa:
 
-<div align="center">
+Formalmente:
+<div class="definizione">
+Un'operazione binaria definita su un insieme <span class="math display">\Bbb{A}</span> e denotata dal simbolo "<span class="math display">*</span>", è detta associativa se soddisfa la seguente legge:
+<br>
+	<span class="math display"> (x*y)*z=x*(y*z), \forall \; \{x,y,z\} \in A</span>
+<br>
+	<div class="due_uno">
+		<span class="math display l">\forall x, y, z \in \Bbb{R}</span>
+		<span class="math display r">\blacksquare</span>
+	</div>
+</div>
+
+ Formalmente, un'[[operazione binaria]] su un [[insieme]] $A$ si dice *associativa* se soddisfa la legge associativa:
+
+<div class="importante">
 <span class="math display"> (x*y)*z=x*(y*z), \forall \; \{x,y,z\} \in A</span></div>
 
 dove il simbolo _"$*$"_ è usato per sostituire il simbolo dell'operazione, che può essere qualsiasi simbolo.
 
 La legge associativa può essere espressa anche in notazione funzionale così: 
-<div align="center">
+<div class="importante">
 <span class="math display">f(f(x, y), z) = f(x, f(y, z))</span></div>
 
 $\rightarrow$ [[operazione binaria]], [[insieme]]
@@ -38,8 +51,8 @@ Anche se le parentesi sono state riorganizzate su ogni riga, i valori delle espr
 Le operazioni associative sono abbondanti in matematica; infatti, molte [[struttura algebrica]] (come semigruppi e categorie) richiedono esplicitamente che le loro operazioni binarie siano associative.
 
 ***
-
 Tags:  
-#nozionibase 
+[#nozionibase](app://obsidian.md/index.html#nozionibase)
 
-
+Corso:  
+[#prerequisiti](app://obsidian.md/index.html#prerequisiti)

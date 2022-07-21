@@ -1,0 +1,1 @@
+<span class="math display"><% tp.file.selection() %></span>

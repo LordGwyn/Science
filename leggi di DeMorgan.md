@@ -3,11 +3,11 @@ _Questa nota fa riferimento a $\rightarrow$ [[logica#Regole di dimostrazione]]_
 # Leggi di equivalenza logica di DeMorgan
 Contestualmente all'argomento "equivalenza logica" è doveroso ricordare che esistono due leggi di DeMorgan che aiutano nel processo di riscrivere una proposizione logica in un altro modo. Le leggi sono:
 
-<div align="center">
+<div class="importante">
 <span class="math display">1)\; \neg (P \land Q) = \neg P \lor \neg Q</span>
 </div>
 
-<div align="center">
+<div class="importante">
 <span class="math display">2)\; \neg (P \lor Q) = \neg P \land \neg Q</span>
 </div>
 

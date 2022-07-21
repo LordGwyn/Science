@@ -5,7 +5,10 @@ cssclass: proprietàcommutativa
 ---
 # Proprietà Commutativa
 ###### Definizione:
-In matematica, un'[[operazione binaria]] è commutativa se cambiando l'ordine degli operandi non cambia il risultato.
+
+<div class="importante"> In matematica, un'operazione binaria è commutativa se cambiando l'ordine degli operandi, il risultato non cambia: <div>
+
+
 
 ![[mhaed.png]]
 
@@ -20,6 +23,8 @@ Una relazione binaria si dice simmetrica se la relazione si applica indipendente
 
 
 ***
-
 Tags:  
-#nozionibase 
+[#nozionibase](app://obsidian.md/index.html#nozionibase)
+
+Corso:  
+[#prerequisiti](app://obsidian.md/index.html#prerequisiti)

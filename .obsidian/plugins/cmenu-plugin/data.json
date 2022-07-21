@@ -1,0 +1,30 @@
+{
+  "aestheticStyle": "glass",
+  "menuCommands": [
+    {
+      "id": "cmenu-plugin:underline",
+      "name": "cMenu: Toggle underline",
+      "icon": "underline-glyph"
+    },
+    {
+      "id": "cmenu-plugin:superscript",
+      "name": "cMenu: Toggle superscript",
+      "icon": "superscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:subscript",
+      "name": "cMenu: Toggle subscript",
+      "icon": "subscript-glyph"
+    },
+    {
+      "id": "obsidian-hotkeys-for-templates:■Latex ℝ.md",
+      "name": "Hotkeys for templates: Insert: ■Latex ℝ",
+      "icon": "add-note-glyph"
+    }
+  ],
+  "appendMethod": "workspace",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 4.25,
+  "cMenuNumRows": 4
+}

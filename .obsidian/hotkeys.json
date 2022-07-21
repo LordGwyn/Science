@@ -18,7 +18,17 @@
     }
   ],
   "insert-current-date": [],
-  "insert-template": [
+  "app:reload": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:templates/-center-.md": [],
+  "templater-obsidian:insert-templater": [
     {
       "modifiers": [
         "Mod"
@@ -26,12 +36,37 @@
       "key": "T"
     }
   ],
-  "app:reload": [
+  "editor:toggle-bold": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "R"
+      "key": "B"
+    }
+  ],
+  "obsidian-hotkeys-for-templates:templater:Bold.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspaces:open-modal": [],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
     }
   ]
 }

@@ -4,10 +4,9 @@ tags:
 aliases:
 cssclass: 
 ---
-_Questa nota fa riferimento a $\rightarrow$ [[link]]_
 # Assioma
 ###### Definizione:
-*Un assioma è una [[logica#Proposizione logica o Statement|proposizione]] matematica che si considera vera senza essere dimostrata.*
+<div class="importante"> Un assioma è una proposizione matematica che si considera vera senza essere dimostrata <div>
 
 $\rightarrow$ [[logica#Proposizione logica o Statement|proposizione]]
 

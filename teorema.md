@@ -5,7 +5,7 @@ cssclass:
 ---
 # Teorema
 ###### Definizione:
-*Un teorema è un'affermazione che è stata dimostrata vera da un tipo speciale di argomento logico chiamato [[logica#Regole di dimostrazione|dimostrazione rigorosa]]*
+<div class="importante"> Un teorema è un'affermazione che è stata dimostrata vera da un tipo speciale di argomento logico chiamato dimostrazione rigorosa <div>
 
 $\rightarrow$ [[logica#Regole di dimostrazione|dimostrazione rigorosa]]
 
@@ -19,7 +19,7 @@ Un qualsiasi teorema è formato da due parti:
 
 ## Enunciato
 ###### Definizione:
-*In matematica, l'enunciato è una qualsiasi espressione linguistica o simbolica per cui si può stabilire con certezza se è vera oppure se è falsa.*
+<div class="importante"> In matematica, l'enunciato è una qualsiasi espressione linguistica o simbolica per cui si può stabilire con certezza se è vera oppure se è falsa. <div>
 
 $\rightarrow$ [[link]], [[link]]
 
@@ -43,14 +43,14 @@ Non tutti i teoremi però esplicitano direttamente tale struttura. Ad esempio:
 - Se piove, apro l'ombrello
 - Un cittadino onesto rispetta le leggi
 
-Questi sono tutti enunciati validi, ma non tutti seguono rigorosamente la struttura dell'implicazione "<span style="color: #F9E79F">se</span> Ipotesi, <span style="color: #F9E79F">allora</span> Tesi": alcuni di questi implicano parzialmente (la seconda implica la conclusione) o totalmente (la terza implica sia premessa, sia conclusione) tale struttura, ma questa c'è sempre.
+Questi sono tutti enunciati validi, ma non tutti seguono rigorosamente la struttura dell'implicazione "*se* Ipotesi, *allora* Tesi": alcuni di questi implicano parzialmente (la seconda implica la conclusione) o totalmente (la terza implica sia premessa, sia conclusione) tale struttura, ma questa c'è sempre.
 ___
 
 ## Dimostrazione
 In un impianto dimostrativo del tipo __ipotesi__ $\implies$ __tesi__, il processo logico che consente di verificarte la validità di tale proposizione è detto __dimostrazione__:
 
 ###### Definizione:
-*Una dimostrazione matematica è un processo deduttivo che permette di verificare la validità dell'enunciato di un teorema, e che prevede di mostrare che la validità delle ipotesi implica la validità della tesi.*
+<div class="importante"> Una dimostrazione matematica è un processo deduttivo che permette di verificare la validità dell'enunciato di un teorema, e che prevede di mostrare che la validità delle ipotesi implica la validità della tesi. <div>
 
 $\rightarrow$ [[link]], [[link]]
 
@@ -61,44 +61,10 @@ Esistono vari tipi di dimostrazione:
 - [[logica#Regole di dimostrazione#Dimostrazione per assurdo|Dimostrazione per assurdo]]
 - [[Logica#Regole di dimostrazione#Dimostrazione per induzione|Dimostrazione per induzione]]
 
-
-
-
-
-
-
-
-
-
 ***
 
 Tags:  
-[#tag](app://obsidian.md/index.html#tag)
+#nozionibase 
 
 Corso:  
-[#tag](app://obsidian.md/index.html#tag)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div><div id="line_spacing"></div>
-Esempio (1° Teo di invertibilità di Cramer):
-<div align="center">Qualsiasi matrice A è invertibile <span class="math display">\iff rg(A) = n</span></div>
-
-dove n è il più grande rango possibile della matrice A.
+#prerequisiti 

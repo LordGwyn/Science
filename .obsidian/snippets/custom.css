@@ -1,5 +1,5 @@
 
-/* CUSTOM IMG */
+/* CUSTOM CSS PER NOTA */
 
 img[alt*="tabellaveritàimplicazionesingola.PNG"] {
   width: 30%;
@@ -17,30 +17,55 @@ img[alt="schema-simboli-NUMERI1.png"]{
   width: 100%;
 }
 
+
 .operazioneBinaria img:nth-child(1) {
   width: 30%;
   box-shadow: none;
   background-color: transparent;
-  filter: invert(1);
+  filter: var(--invert-color);
 }
 
 .proprietàcommutativa img:nth-child(1) {
   width: 40%;
   box-shadow: none;
   background-color: transparent;
-  filter: invert(1);
+  filter: var(--invert-color);
 }
 
-/* CUSTOM Tables */
+
+/* TABELLA MIGLIORE CHE HO PER CSS SPECIFICO */
+.proprietàdistributiva #tabella_1 {
+  width: fit-content;
+  height: fit-content;
+  margin: .4em auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
+  align-items: center;
+  column-gap: 1em;
+}
+
 
 
 
 /* CSS */
 
 :root {
-  --strong-color: var(--text-normal);
-  --em-color: var(--text-normal);
-  font-size: 120%; /*scala il fontsize di tutto*/
+  font-size: 110%; /*scala il fontsize di tutto*/
+}
+
+.theme-light {
+  --strong-color: var(--text-normal) !important;
+  /* --em-color: var(--text-normal); */
+  --invert-color: invert(0);
+  --important-color: #fff9c4;
+  --warning-color: #d92424;
+  --theorem-color: #3498db;
+}
+
+.theme-dark {
+  --invert-color: invert(1);
+  --important-color:  #1c0835 ;
 }
 
 body > div.modal-container.mod-confirmation > div.modal > div.modal-button-container > button:nth-child(1) {
@@ -51,7 +76,7 @@ h2 {
   border: none;
 }
 
-.markdown-preview-view h3, .HyperMD-header-3, .cm-header-3 {
+.markdown-preview-view h3, .cm-header-3 {
   font-weight: var(--h2-weight) !important;
 }
 
@@ -112,16 +137,11 @@ img {
   margin-right: auto;
   margin-left: auto;
   width: 50%;
+  border-radius: 4px;
 }
 
-div .cm-line {
-  font-weight: normal;
-  font-size: 22px;
-}
-
-.HyperMD-list-line {
-  padding-bottom: 5px !important;
-  padding-left: 22px !important;
+ol {
+  list-style-type: lower-roman;
 }
 
 ul, ol {
@@ -131,20 +151,17 @@ ul, ol {
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: .5em;
+  line-height: 1.5em;
 }
 
 ul, ol li:last-child {
   margin-bottom: 0;
 }
 
-div .cm-formatting-list-ol {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-li::marker {
-  font-size: 18px;
+ol li::marker {
+  font-size: 80%;
+  font-weight: bold;
 }
 
 .MJX-TEX {
@@ -165,101 +182,199 @@ span.math-inline mjx-container mjx-math {
 
 /***************************************************************************************************************/
 
-div.definizione {
-  width: fit-content;
-  height: fit-content;
-  text-align: center;
-  padding: 1em;
-  margin: calc(4px + .4em) auto;
-  /* style */
-  border: 3px #154360;
-  border-style: solid dashed;
-  outline: 4px solid #BFC9CA;
-  font-family: serif;
-  background-color: #BFC9CA;
-  color: black;
+span.definizione, span.due_uno{
+  display: block;
 }
 
-div.definizione span mjx-math {
-  font-size: .95em;
+.definizione {
+  width: fit-content;
+  min-width: 80%;
+  max-width: 95%;
+  height: fit-content;
+  text-align: left;
+  padding: 2em 1em 1em 1em;
+  margin: calc(4px + .4em) auto;
+  border: 2px solid var(--text-normal);
+  font-family: serif;
+  line-height: normal;
+}
+
+.definizione::before {
+  content: "DEFINIZIONE";
+  display: block;
+  position: absolute;
+  transform: translateY(-150%);
+  width: fit-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #F1C40F;
+  padding: 0 4px .5px 4px;
+}
+
+.definizione *:last-child {
+  margin-bottom: 0;
+}
+
+.theme-light .definizione::before {
+  background-color: #333;
+
+}
+
+.theme-dark .definizione::before {
+  padding: 0;
+}
+
+.definizione span mjx-math {
+  font-size: .9em;
   font-weight: lighter;
 }
 
-div.definizione span.l, span.c, span.r {
+.definizione span.l, span.c, span.r {
   display: inline-grid;
   align-items: center;
   height: auto;
-  width: 100%;
+  width: 100%; 
 }
 
-div.definizione span.l mjx-container {
+.definizione span.l mjx-container {
   justify-self: baseline;
 }
 
-div.definizione span.c mjx-container {
+.definizione span.c mjx-container {
   justify-self: center;
 }
 
-div.definizione span.r mjx-container {
+.definizione span.r mjx-container {
   justify-self: end;
 }
 
-div.due_uno {
+.due_uno {
   display: inline-grid;
   width: 100%;
   height: fit-content;
-  grid-template-columns: 50% 50%;
+  padding-top: 1em;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 100%;
   align-items: center;
 }
 
-div.definizione div.due_uno span.l {
+.definizione div.due_uno span.l {
   justify-self: baseline;
 }
 
-div.definizione div.due_uno span.c {
+.definizione div.due_uno span.c {
   justify-self: center;
 }
 
-div.definizione div.due_uno span.r {
+.definizione div.due_uno span.r {
   justify-self: end;
+}
+
+.definizione ol {
+  padding: 1em 1em 0 1em;
+  margin: 0;
+  list-style-type: lower-roman;
+  font-family: serif;
+  line-height: normal;
+}
+
+.definizione ol li::marker {
+  font-style: italic;
 }
 
 /****************************************************************************************************************/
 
 
 div[align*="center"] {
-  font-style: italic;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: -.5px;
-  /*background-color: rgb(252, 219, 90);*/
-  border-radius: 4px;
-  border: 5px double #0057c1;
-  color: var(--text-normal);
-  width: 80%;
-  padding: .15em .85em .3em .8em;
-  margin: .4em auto;
+  /* utilizzabile */
+}
 
-  /*
-  font-style: italic;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: -.5px;
-  background-color: rgba(247, 220, 111,.65);
-  border: 2px solid rgb(247, 220, 111); /*194, 185, 102/
-  color: black;
+/* Per centrare e evidenziare il testo */
+.importante {
+  display: block;
   width: fit-content;
-  padding: .4em .8em;
+  padding: .5em;
   margin: .4em auto;
-  */
+  text-align: center;
+  line-height: 1.5em;
+
+  /* style */
+  color: var(--text-normal);
+  background-color: var(--important-color);
+  font-size: 95%;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  border: 2px solid var(--text-normal);
 }
 
-div[align*="center"] span {
-  font-size: inherit;
-  font-weight: 100;
+/* Casella che richiama l'attenzione sul testo */
+.attenzione {
+  width: fit-content;
+  padding-left: 1.25em;
+  margin: calc(1em + 25px) auto .4em 0;
+  display: block;
+
+  /* style */
+  color: var(--text-normal);
+  border-left: 4px solid var(--warning-color);
+  font-size: 95%;
+  line-height:150%;
 }
 
+.attenzione::before {
+  content: "Attenzione:";
+  display: block;
+  position: absolute;
+  transform: translate(-26%, -130%);
 
+  /* style */
+  font-size: 95%;
+  line-height: normal;
+  color: var(--warning-color);
+  font-weight: bold;
+}
+
+.teorema {
+  width: fit-content;
+  padding: .4em 1.25em;
+  padding-right: 0;
+  margin: calc(1em + 25px) auto .4em 0;
+  display: block;
+
+  /* style */
+  color: var(--text-normal);
+  border-left: 4px solid var(--theorem-color);
+  background-color: #def0fb;
+  font-size: 95%;
+  line-height: 160%;
+}
+
+.teorema::before {
+  content: "Teorema:";
+  display: block;
+  position: absolute;
+  transform: translate(-30%, calc(-130% - 5px));
+
+  /* style */
+  font-size: 95%;
+  line-height: normal;
+  color: var(--theorem-color);
+  font-weight: bold;
+}
+
+.times {
+  font-family: times;
+  font-style: italic;
+  font-size: 105%;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+/* TAG HTML per centrare il testo */
 center {
   font-family: Times;
   font-style: italic;
@@ -268,7 +383,7 @@ center {
   padding: 0 1em;
   margin: .4em auto;
   background-color: rgba(0, 0, 0, .1);
-  box-shadow: inset 0px 0px 10px 10px #1D2126;
+  /* box-shadow: inset 0px 0px 10px 10px #1D2126; per tema scuro */ 
 }
 
 mjx-container[jax="CHTML"][display="true"] mjx-math {
@@ -277,10 +392,12 @@ mjx-container[jax="CHTML"][display="true"] mjx-math {
 
 #line_spacing {
   height: .3em;
+  width: 100%;
+  display: block;
 }
 
 #bigText {
-  font-size: var(--h3);
+  font-size: 105%;
   font-weight: bold;
 }
 

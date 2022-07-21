@@ -3,18 +3,20 @@ tags:
 aliases:
 cssclass: 
 ---
-_Questa nota fa riferimento a $\rightarrow$ [[link]]_
 # Struttura algebrica
 ###### Definizione:
-Si definisce **struttura algebrica** un insieme non vuoto $A$ (può essere chiamato **insieme sostegno** o **dominio**) su cui siano definite una o piu' [[operazione matematica|operazioni matematiche]].
-La notazione corretta per indicare tali strutture è la seguente:
+<div class="importante"> Si definisce <strong>struttura algebrica </strong>un insieme non vuoto <span class="math display"> A </span> (può essere chiamato<strong> insieme sostegno</strong> o <strong>dominio</strong>) su cui siano definite una o piu' matematiche.
+</div>
 
-<div align="center">
-<span class="math display">(\Bbb{A};\oplus,\otimes)</span></div>
+La notazione corretta per indicare tali strutture è la seguente: 
 
-dove $\Bbb{A}$  è l'insieme sostegno della struttura algebrica, e $\oplus$ e $\otimes$ sono le operazioni matematiche definite in $A$.
+<div class="importante">
+	<span class="math display">(A;\oplus,\otimes)</span>
+</div>
 
-$\rightarrow$ [[link]], [[link]]
+dove $A$  è l'insieme sostegno della struttura algebrica, e $\oplus$ e $\otimes$ sono le operazioni matematiche definite in $A$.
+
+$\rightarrow$ [[insieme]], [[operazione matematica]]
 
 <span id="bigText" class="text_divisor">Note: </span>
 
@@ -23,7 +25,6 @@ $\rightarrow$ [[link]], [[link]]
 ***
 
 Tags:  
-[#tag](app://obsidian.md/index.html#tag)
+#nozionibase 
 
 Corso:  
-[#tag](app://obsidian.md/index.html#tag)

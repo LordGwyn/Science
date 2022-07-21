@@ -1,6 +1,6 @@
 # Logica
 ## Proposizione logica o Statement
-<div align="center">In logica, una proposizione è un enunciato al quale si può inequivocabilmente attribuire, in un certo contesto, un valore di verità V o F.</div>
+<div class="importante">In logica, una proposizione è un enunciato al quale si può inequivocabilmente attribuire, in un certo contesto, un valore di verità V o F.</div>
 
 Esempi di proposizioni logiche sono:
 - 7 è un numero dispari (Vero)
@@ -161,18 +161,16 @@ $$p(x):\text{(x is even) ⇒ (x is a multiple of 6)}$$
 so che se scrivo "$\forall x \in \Bbb{Z}, p(x)$", sto dicendo "ogni numero intero pari è multiplo di 6", che è falso. Quindi logicamente l'affermazione "$\neg(\forall x \in \Bbb{Z}, p(x))$", deve essere vera, ma __ATTENZIONE__: "$\neg(\forall x \in \Bbb{Z}, p(x))$", non vuol dire che "__non esistono__ numeri pari multipli di 6" (che esistono), bensi vuole dire "__esiste almeno__ un numero pari  __non__ multiplo di 6" che si può riscrivere come: "$\exists x \in \Bbb{Z}, \neg p(x)$". 
 Quindi come regola generale vale che:
 
-<div align="center"><span class="math display">\neg(\forall x \in \Bbb{Z}, p(x)) \iff \exists x \in \Bbb{Z}, \neg p(x)</span></div>
+<div class="importante"><span class="math display">\neg(\forall x \in \Bbb{Z}, p(x)) \iff \exists x \in \Bbb{Z}, \neg p(x)</span></div>
 
 e viceversa:
 
-<div align="center">
+<div class="importante">
 <span class="math display">\neg(\exists x \in \Bbb{Z}, p(x)) \iff \forall x \in \Bbb{Z}, \neg p(x)</span>
  </div>
 
-^37e9cb
 
-
-___
+***
 ## Regole di dimostrazione
 La proposizione $p \implies q$ può essere espressa in varie altre forme logicamente equivalenti a questa. Tali forme rappresentano delle __regole di dimostrazione__ utili a riottenere l'implicazione originaria per la dimostrazione di [[teorema|teoremi]].
 
@@ -191,7 +189,7 @@ Quelle __indirette__ invece sono:
 ### Contronominale
 Data una qualsiasi implicazione $p \implies q$ esiste un' implicazione logicamente identica $\neg q \implies \neg p$ detta _contronominale_ che detta in formule si scrive in questo modo:
 
-<div align="center"><span class="math display">(p \implies q) \iff (\neg q \implies \neg p)</span></div>
+<div class="importante"><span class="math display">(p \implies q) \iff (\neg q \implies \neg p)</span></div>
 
 La dimostrazione è semplice:
 Basta guardare le tabelle di verità di "$p \implies q$" e di "$\neg q \implies \neg p$" ed è possibile verificare subito che le due proposizioni sono logicamente identiche:
@@ -214,7 +212,7 @@ L'idea di base è assumere che l'affermazione che vogliamo dimostrare sia falsa,
 
 In formule logiche:
 
-<div align="center"><span class="math display">(p \implies q) \iff (p \land \neg q \implies r \land \neg r)</span></div>
+<div class="importante"><span class="math display">(p \implies q) \iff (p \land \neg q \implies r \land \neg r)</span></div>
 
 <div id="line_spacing"></div>
 
@@ -244,13 +242,17 @@ Quindi alla fine, se si è riusciti a dimostrare che $p \land \neg q \implies r 
 ### Dimostrazione per induzione
 La dimostrazione per induzione è un tipo di dimostrazione che funziona nei casi in cui si vuole dimostrare la validità assoluta di una certa congettura/tesi, e la sua definizione è la seguente:
 
-<div align="center">
-Sia <span class="math display">n_0 \ge 0</span> un intero e sia <span class="math display">S(n)</span> un predicato definito per ogni intero <span class="math display">n \gt n_0</span>,
-<br>e supposto che valgono le seguenti condizioni:<br>
-i.) <span class="math display">S(n_0)</span> è vero<br>
-ii.) per ogni <span class="math display">n \gt n_0</span>, se <span class="math display">S(n)</span> è vero, allora <span class="math display">S(n+1)</span> è vero<br><br>
-allora, <span class="math display">S(n)</span> è vero per ogni <span class="math display">n \gt n_0</span>
-
+<div class="definizione">
+	Sia <span class="math display">n_0 \ge 0</span> un intero e sia <span class="math display">S(n)</span> un predicato definito per ogni intero <span class="math display">n \gt n_0</span> e supposto che valgono le seguenti condizioni:
+	<ol>
+		<li><span class="math display">S(n_0)</span> è vero</li>
+		<li>Per ogni <span class="math display">n \gt n_0</span>, se <span class="math display">S(n)</span> è vero, allora <span class="math display">S(n+1)</span> è vero</li>
+	</ol>
+	
+	<div class="due_uno">
+		<span class="math display l">\text{allora, } S(n) \text{ è vero per ogni } n \gt n_0</span>
+		<span class="math display r">\blacksquare</span>
+	</div>
 </div>
 
 Esempio:
@@ -284,7 +286,7 @@ Quindi $1+3+5+7+\cdot\cdot\cdot\cdot\cdot\cdot\cdot\cdot\cdot\cdot\cdot\cdot\cdo
 Si può quindi concludere per induzione che $1+3+5+7+\dots+(2n-1) = n^2$ per ogni $n \in \Bbb{N}$. 
 
 
----
+***
 Tags:
 #prerequisiti
 #logica

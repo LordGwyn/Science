@@ -1,11 +1,11 @@
 {
-  "baseFontSize": 67,
-  "cssTheme": "Things",
+  "baseFontSize": 21,
+  "cssTheme": "Yin and Yang",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "delete",
     "custom"
   ],
-  "theme": "obsidian",
+  "theme": "moonstone",
   "translucency": false
 }

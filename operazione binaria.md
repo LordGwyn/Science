@@ -9,13 +9,14 @@ _Questa nota fa riferimento a $\rightarrow$ [[operazione matematica]]_
 Un'operazione binaria del tipo $f(x,y)$ è un'operazione $f$ di [[arietà]] $2$ che si applica  
 a due quantità o a due [[oggetto matematico|oggetti matematici]] $x$ e $y$.
 Nello specifico un'operazione binaria  in un insieme non vuoto $A$, è la [[mappatura]]:
-<div align="center">
+<div class="importante">
 <span class="math display">f(x,y):A \times A \rightarrow A</span>
 </div>
 
 tale che:
 1. $f$ è definita per **ogni** coppia di elementi di $A$
 2. $f$ associa biunivocamente **ogni** coppia di elementi di $A$ ad **ogni** elemento di $A$
+
 
 $\rightarrow$ [[arietà]], [[oggetto matematico]], [[mappatura]]
 
@@ -39,3 +40,9 @@ Degli esempi possono essere le operazione algebriche di base come addizione sott
 - [[proprietà associativa]] (opzionale)
 - [[proprietà distributiva]] (opzionale)
 
+***
+Tags:  
+#nozionibase 
+
+Corso:  
+#prerequisiti 

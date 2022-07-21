@@ -6,30 +6,30 @@
       {
         "id": "1cbda7b6d4edcfe9",
         "type": "leaf",
-        "dimension": 65.69416498993964,
+        "dimension": 61.18560338743825,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "proprietà distributiva.md",
+            "file": "insieme.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "4ae181057f271aee"
+        "group": "fb653d3d70386c8b"
       },
       {
-        "id": "8a5e89ec95f265be",
+        "id": "1fb119202f861b97",
         "type": "leaf",
-        "dimension": 34.30583501006036,
+        "dimension": 38.81439661256175,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "proprietà distributiva.md",
+            "file": "insieme.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "4ae181057f271aee"
+        "group": "fb653d3d70386c8b"
       }
     ],
     "direction": "vertical"
@@ -56,8 +56,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "assioma",
-                "matchingCase": true,
+                "query": "insieme aperto",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 180.5
+    "width": 212.01315689086914,
+    "collapsed": true
   },
   "right": {
     "id": "c4c587e284af29a4",
@@ -85,9 +86,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "proprietà distributiva.md",
+                "file": "insieme.md",
                 "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "proprietà distributiva.md",
+                "file": "insieme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,15 +124,15 @@
   },
   "active": "1cbda7b6d4edcfe9",
   "lastOpenFiles": [
-    "proprietà distributiva.md",
-    "proprietà riflessiva.md",
-    "logica.md",
-    "ipotesi.md",
-    "templates/Highlighted link.md",
-    "templates/Untitled.md",
-    "templates/Definition.md",
-    "templates/Line spacing.md",
-    "templates/Math expression.md",
-    "templates/New Note.md"
+    "insieme.md",
+    "fattoriale.md",
+    "Untitled.md",
+    "sadsadasd.md",
+    "intervallo.md",
+    "relazione binaria.md",
+    "templates/Center.md",
+    "templates/Importante.md",
+    "templates/Teorema.md",
+    "coppia ordinata.md"
   ]
 }

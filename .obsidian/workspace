@@ -4,32 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "1cbda7b6d4edcfe9",
+        "id": "5a426fa885f136f4",
         "type": "leaf",
-        "dimension": 61.18560338743825,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "insieme.md",
+            "file": "fattoriale.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "fb653d3d70386c8b"
+        "group": "6786e0f66a319068"
       },
       {
-        "id": "1fb119202f861b97",
+        "id": "ef7eb47c9bedb7f3",
         "type": "leaf",
-        "dimension": 38.81439661256175,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "insieme.md",
+            "file": "fattoriale.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "fb653d3d70386c8b"
+        "group": "6786e0f66a319068"
       }
     ],
     "direction": "vertical"
@@ -56,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "insieme aperto",
-                "matchingCase": false,
+                "query": "tag:#cazzoduroinmutande",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.01315689086914,
+    "width": 233.5,
     "collapsed": true
   },
   "right": {
@@ -77,34 +75,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cb8e5478e9b35ca6",
+        "id": "1d077b759bc999a3",
         "type": "tabs",
         "children": [
           {
-            "id": "3c14d54625fe55fd",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "insieme.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "411df8d92dcf301f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2dc386d819e4fd57",
+            "id": "607aafc420e500ca",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "insieme.md",
+                "file": "fattoriale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +94,37 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "a86aeb8ede26d996",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "fattoriale.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
+    "width": 300,
     "collapsed": true
   },
-  "active": "1cbda7b6d4edcfe9",
+  "active": "ef7eb47c9bedb7f3",
   "lastOpenFiles": [
-    "insieme.md",
+    "Logica.md",
+    "mappatura.md",
+    "n-upla ordinata.md",
+    "principio di proporzionalità.md",
+    "leggi di DeMorgan.md",
     "fattoriale.md",
-    "Untitled.md",
-    "sadsadasd.md",
-    "intervallo.md",
-    "relazione binaria.md",
-    "templates/Center.md",
-    "templates/Importante.md",
-    "templates/Teorema.md",
-    "coppia ordinata.md"
+    "funzione.md",
+    "Geometria.md",
+    "insieme.md",
+    "arietà.md"
   ]
 }

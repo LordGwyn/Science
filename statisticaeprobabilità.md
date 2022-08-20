@@ -40,10 +40,9 @@ Concettualmente il fattoriale si sviluppa in questo modo:
 
 La domanda è: Qual'è la probabilità di ottenere proprio quella sequenza?
 La risposta è il fattoriale che tiene in considerazione il cambiamento di ogni estrazione, e combina le probabilità di ciascuna di esse in questo modo:
-<span class="importante"> $P = n!=n \cdot (n-1) \cdot (n-2)\; \cdot \; ... \, \cdot \;1$ </span>
+<span class="importante"> $P = n!=n \cdot (n-1) \cdot (n-2) \cdot [\dots]  \cdot 1$ </span>
 
-Il risultato sono tutte le possibili permutazioni di sequenze di $n$ biglie estratte, quindi la probabilità di ottenere una qualsiasi sequenza da $n$ estrazioni, è di $\frac{1}{n!}$.
-
+Il risultato sono tutte le possibili permutazioni di sequenze di $n$ biglie estratte, quindi la probabilità di ottenere una qualsiasi sequenza da $n$ estrazioni, è di $\displaystyle\frac{1}{n!}$.
 e va bene così si è capito il concetto.
 
 ## Permutazioni <sup>n</sup>P<sub>r</sub>
@@ -59,16 +58,32 @@ Sappiamo già che la prob. che esca fuori $(1,2,3)$ nel caso P<sub>1</sub> è $\
 Calcoliamo P<sub>2</sub>: In pratica serve utilizzare questa formula:
 <span class="importante"> $P = \displaystyle\frac{n!}{(n-k)!}$ </span>
 Il motivo è prestodetto: a noi serve calcolare la probabilità delle prime $k$ estrazioni, ovvero dobbiamo calcolare $\displaystyle^nP_k = n \cdot (n-1)\cdot [\dots] \cdot (n - (k+1))$ (che non è altro che un secondo modo di riscrivere la formula di sopra, e il "$+1$" c'è perchè contando le estrazioni si tiene in considerazione anche la prima) che vuol dire automaticamente che dobbiamo escludere dal calcolo tutte le rimanenti parti del fattoriale perchè corrisponderebbero ad estrazioni che non dovrebberoavvenire. Per fare ciò si mette al denominatore un termine che semplificandosi col numeratore, lascia soltanto il numero di estrazioni interessate.
-Esempio con $n$=10 e $k$=3:
-$$ \begin{array}{rcl}
-=\frac{n!}{(n-k)!}=&
-\\
-=\frac{10!}{(10 -3)!}=&
-\\
-=\frac{10\cdot 9 \cdot 10\cdot 9 \cdot 8\cdot 7 \cdot 6\cdot 5 \cdot 4\cdot 3 \cdot 2 \cdot 1}{7 \cdot 6\cdot 5 \cdot 4\cdot 3 \cdot 2 \cdot 1} = dfsd &
 
+Esempio con $n$=10 e $k$=3:
+$$
+\begin{array}{rcl}
+	^nP_r&=&\displaystyle\frac{n!}{(n-k)!}&=&
+	\\
+	&=&\displaystyle\frac{10!}{(10 -3)!}&=&
+	\\
+	&=&\displaystyle\frac{10\cdot 9 \cdot 8\cdot 7 \cdot 6\cdot 5 \cdot 4\cdot 3 \cdot 2 \cdot 1}{7 \cdot 6\cdot 5 \cdot 4\cdot 3 \cdot 2 \cdot 1}&=& 10\cdot 9 \cdot 8
+	\\
+	&=&560
 \end{array}
 $$
+
+com'è possibile vedere dall'esempio, dopo la semplificazione sono rimasti 3 fattori, che corrisponde al numero di estrazioni $k$.
+
+## Coefficiente binomiale
+Il coefficiente binomiale fa la stessa cosa di <sup>n</sup>P<sub>r</sub>, ma va contare le *combinazioni*, invece che le permutazioni. Di fatto il coefficiente binomiale, che si indica con la dicitura$\dbinom n k$, si calcola con la seguente formula:
+
+<span class="importante"> $\dbinom n k = \displaystyle\frac {n!} {k!(n-k)!}$</span>
+che sarebbe come dividere <sup>n</sup>P<sub>r</sub> per $k!$. In questo modo si va a dividere il risultato, per il numero di permutazioni possibili di $k$ elementi andando quindi a rendere tutte le permutazioni con gli stessi elementi, ma con ordine di estrazione diverso, per l'appunto **<u>uguali</u>** (nel senso che $(1,2,3) = (3,1,2)$, permutazioni diverse, ma stessa combinazione).
+
+Per continuare con l'esempio di prima dove da 10 elementi ($n$) ne estraggo 3 ($k$), il numero di possibili permutazioni generate da 3 estrazioni sono:
+$$10 \cdot 9 \cdot 8 = 560$$
+dato che 560 sono le permutazioni, in questo numero le permutazioni $(4,5,6)$ e $(6,5,4)$ sono due casi diversi, ovverosia l'ordine di estrazione è un fattore determinante. Per riuscire a non renderlo più tale è sufficiente dividere 560 per il numero di modi con cui si può arrangiare l'ordine di tre elementi, in questo caso $k! = 3! = 6$.
+Quindi $\displaystyle\frac{560}{6} \approx$ ==93== combinazioni.
 
 ***
 
@@ -76,4 +91,4 @@ Tags:
 #statisticaeprobabilità
 
 Corso:  
-[#tag](app://obsidian.md/index.html#tag)
+#prerequisiti 

@@ -1,0 +1,1 @@
+\displaystyle\frac{<% tp.file.selection() %>}{}

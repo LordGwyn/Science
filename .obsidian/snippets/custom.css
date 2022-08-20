@@ -51,7 +51,7 @@ img[alt="schema-simboli-NUMERI1.png"]{
 /* CSS */
 
 :root {
-  font-size: 110%; /*scala il fontsize di tutto*/
+  font-size: 100%; /*scala il fontsize di tutto*/
 }
 
 .theme-light {
@@ -336,7 +336,7 @@ div[align*="center"] {
 }
 
 .teorema {
-  width: fit-content;
+  width: 100%;
   padding: .4em 1.25em;
   padding-right: 0;
   margin: calc(1em + 25px) auto .4em 0;
@@ -350,11 +350,15 @@ div[align*="center"] {
   line-height: 160%;
 }
 
-.teorema::before {
-  content: "Teorema:";
+.teorema_titolo {
   display: block;
   position: absolute;
-  transform: translate(-30%, calc(-130% - 5px));
+  width: 75%;
+  height: fit-content;
+  /* transform: translate(-30%, calc(-130% - 5px)); */
+  transform: translate(-3%, calc(-130% - 5px));
+  margin-left: auto;
+  text-align: left;
 
   /* style */
   font-size: 95%;
@@ -362,6 +366,28 @@ div[align*="center"] {
   color: var(--theorem-color);
   font-weight: bold;
 }
+
+.teorema_titolo::before {
+  content: "➢ ";
+}
+
+.teorema_titolo a {
+  color: var(--theorem-color);
+  text-decoration: underline !important;
+}
+
+/* .teorema::before {
+  content: "Teorema:";
+  display: block;
+  position: absolute;
+  transform: translate(-30%, calc(-130% - 5px));
+
+  /* style */
+  /* font-size: 95%;
+  line-height: normal;
+  color: var(--theorem-color);
+  font-weight: bold;
+} */
 
 .times {
   font-family: times;

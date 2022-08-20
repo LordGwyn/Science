@@ -163,10 +163,8 @@ Sia $A \subset \Bbb{R}$ un insieme **superiormente limitato**:
 Sia $A \subset \Bbb{R}$ un insieme **inferiormente limitato**:
 - <span class="importante"> Chiamiamo **estremo inferiore** di $A$ il più piccolo dei **maggioranti** di $A$ </span>denotiamo tale numero con =="$\inf{A}$"==
 
-<span class="teorema"> Se un qualsiasi insieme $A \subset \Bbb{R}$ è **superiormente limitato** (ovvero che ammette dei maggioranti), allora ammette un **estremo superiore**. 
-Analogamente, vale anche per un insieme **inferiormente limitato** </span>
-
-###### sample del cass
+<span class="teorema"> <span class="teorema_titolo">[[teorema degli insiemi limitati]] </span> Se un qualsiasi insieme $A \subset \Bbb{R}$ è **superiormente limitato** (ovvero che ammette dei maggioranti), allora ammette un **estremo superiore**. 
+Analogamente, vale anche per un insieme **inferiormente limitato**.</span>
 
 
 ***

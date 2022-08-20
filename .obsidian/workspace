@@ -6,6 +6,7 @@
       {
         "id": "5a426fa885f136f4",
         "type": "leaf",
+        "dimension": 67.74876499647142,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,11 +15,12 @@
             "source": true
           }
         },
-        "group": "6786e0f66a319068"
+        "group": "90acf3691f9cec7b"
       },
       {
-        "id": "ef7eb47c9bedb7f3",
+        "id": "c8bfb89192c270c7",
         "type": "leaf",
+        "dimension": 32.251235003528585,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +29,7 @@
             "source": true
           }
         },
-        "group": "6786e0f66a319068"
+        "group": "90acf3691f9cec7b"
       }
     ],
     "direction": "vertical"
@@ -114,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ef7eb47c9bedb7f3",
+  "active": "5a426fa885f136f4",
   "lastOpenFiles": [
-    "Logica.md",
-    "mappatura.md",
-    "n-upla ordinata.md",
-    "principio di proporzionalità.md",
-    "leggi di DeMorgan.md",
+    "logica.md",
     "fattoriale.md",
-    "funzione.md",
-    "Geometria.md",
+    "retta.md",
+    "sadsadasd.md",
     "insieme.md",
-    "arietà.md"
+    "teorema degli insiemi limitati.md",
+    "templates/New Note.md",
+    "Untitled 1.md",
+    "Teorema dei carabinieri.md",
+    "Teorema degli insiemi limitati.md"
   ]
 }

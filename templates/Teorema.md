@@ -1,1 +1,1 @@
-<span class="teorema"> <% tp.file.selection() %> </span>
+<span class="teorema"> <span class="teorema_titolo"><% tp.file.selection() %> </span> </span>

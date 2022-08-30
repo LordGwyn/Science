@@ -31,6 +31,11 @@ z&=&x&+&i&\cdot&y
 
 ad
 
+![[screenshot]]
+
+
+
+
 
 ***
 

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "arietà.md",
+            "file": "numeri complessi.md",
             "mode": "preview",
             "source": true
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "arietà.md",
+            "file": "numeri complessi.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.02595138549805
+    "width": 317.02595138549805,
+    "collapsed": true
   },
   "right": {
     "id": "c4c587e284af29a4",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "arietà.md",
+                "file": "numeri complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "arietà.md",
+                "file": "numeri complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,6 +118,7 @@
   },
   "active": "afe1330e889c8738",
   "lastOpenFiles": [
+    "arietà.md",
     "numeri complessi.md",
     "proprietà di chiusura.md",
     "templates/Definizione.md",
@@ -125,7 +127,6 @@
     "operazione binaria.md",
     "operazione matematica.md",
     "coppia ordinata.md",
-    "insieme.md",
-    "funzione biiettiva.md"
+    "insieme.md"
   ]
 }

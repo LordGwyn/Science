@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "numeri complessi.md",
+            "file": "arietà.md",
             "mode": "preview",
             "source": true
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "numeri complessi.md",
+            "file": "arietà.md",
             "mode": "source",
             "source": true
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.02595138549805,
-    "collapsed": true
+    "width": 317.02595138549805
   },
   "right": {
     "id": "c4c587e284af29a4",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "numeri complessi.md",
+                "file": "arietà.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "numeri complessi.md",
+                "file": "arietà.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,10 +115,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "57527f65b042941e",
+  "active": "afe1330e889c8738",
   "lastOpenFiles": [
-    "proprietà di chiusura.md",
     "numeri complessi.md",
+    "proprietà di chiusura.md",
     "templates/Definizione.md",
     "funzione invertibile.md",
     "proprietà commutativa.md",

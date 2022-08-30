@@ -6,7 +6,6 @@
       {
         "id": "afe1330e889c8738",
         "type": "leaf",
-        "dimension": 62.341325811001404,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,111 +13,79 @@
             "mode": "preview",
             "source": true
           }
-        },
-        "group": "9e1d7f29ca9a92ab"
-      },
-      {
-        "id": "57527f65b042941e",
-        "type": "leaf",
-        "dimension": 37.65867418899859,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "numeri complessi.md",
-            "mode": "source",
-            "source": true
-          }
-        },
-        "group": "9e1d7f29ca9a92ab"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "17e4d1b853a99d0a",
-    "type": "split",
+    "id": "0ddd6177a6cec59f",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "10aad58d9eef1367",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9eca3d243c26da02",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "4431a7057e4ebb4d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "5f16044636406bee",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "525c1844335e2614",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 317.02595138549805,
-    "collapsed": true
+    "currentTab": 0
   },
   "right": {
-    "id": "c4c587e284af29a4",
-    "type": "split",
+    "id": "9aa7e921f8200028",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "1d077b759bc999a3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "607aafc420e500ca",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "numeri complessi.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a86aeb8ede26d996",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "numeri complessi.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "b9d5fbbb1ff2bdbd",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "numeri complessi.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "7264b04c0b6378e7",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "numeri complessi.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "afe1330e889c8738",
   "lastOpenFiles": [
-    "arietà.md",
     "numeri complessi.md",
     "proprietà di chiusura.md",
     "templates/Definizione.md",
@@ -127,6 +94,7 @@
     "operazione binaria.md",
     "operazione matematica.md",
     "coppia ordinata.md",
-    "insieme.md"
+    "insieme.md",
+    "funzione biiettiva.md"
   ]
 }

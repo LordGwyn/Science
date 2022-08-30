@@ -36,7 +36,7 @@ si legge "x è relazionato a y tramite la relazione R".
 
 
 
-(Secondo wikipedia alcuni testi definiscono la relazione binaria come una tripletta ordinata del tipo $(X,Y,G)$, dove X e Y sono dominio e codominio, e G è il sottoinsieme di $X \times Y$, ovvero la nostra R di prima ma che viene chiamata **G**, poiche corrisponde al **G**rafico di una [[funzione]] sul piano cartesiano, in quanto insieme di coppie ordinate.)
+(Secondo wikipedia alcuni testi definiscono la relazione binaria come una tripletta ordinata del tipo $(X,Y,G \;(\text{o anche '}\Gamma \text{' sul libro}))$, dove X e Y sono dominio e codominio, e G è il sottoinsieme di $X \times Y$, ovvero la nostra R di prima ma che viene chiamata **G**, poiche corrisponde al **G**rafico di una [[funzione]] sul piano cartesiano, in quanto insieme di coppie ordinate.)
 
 ***
 

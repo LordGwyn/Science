@@ -3,7 +3,7 @@ tags:
 aliases:
 cssclass: <% tp.file.title.replace(/\s/g, "") %>
 ---
-_Questa nota fa riferimento a $\rightarrow$ [[insieme#Insieme Bbb R|Insieme > Insieme R]]_
+_Questa nota fa riferimento a $\rightarrow$ [[funzione|Funzione]]_
 # <%  tp.file.title.replace(/^\w/, function(c) {return c.toUpperCase();})  %>
 ###### Definizione:
 Definizione

@@ -5,7 +5,7 @@ cssclass: mappatura
 ---
 # Mappatura
 ###### Definizione:
-<div class="importante"> In matematica la mappatura è un termine spesso utilizzato come sinonimo di <strong>funzione</strong>, ma in realtà è un termine generale che non è univocamente definito. <div>
+<span class="importante"> In matematica la mappatura è un termine spesso utilizzato come sinonimo di **[[funzione]]**, ma in realtà è un termine generale che non è univocamente definito. <span>
 
 
 $\rightarrow$ [[funzione]]

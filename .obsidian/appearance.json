@@ -1,10 +1,16 @@
 {
-  "baseFontSize": 13,
+  "baseFontSize": 21,
   "cssTheme": "Yin and Yang",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "delete",
-    "custom"
+    "custom",
+    "functionplot_custom",
+    "img_custom",
+    "operazioneBinaria",
+    "proprietàcommutativa",
+    "funzioneinvertibile",
+    "numericomplessi"
   ],
   "theme": "moonstone",
   "translucency": false

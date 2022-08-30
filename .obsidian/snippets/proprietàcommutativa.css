@@ -1,0 +1,6 @@
+.proprietàcommutativa img {
+    width: 40%;
+    box-shadow: none;
+    background-color: transparent;
+    filter: var(--invert-color);
+}

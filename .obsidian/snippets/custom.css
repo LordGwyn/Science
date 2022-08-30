@@ -17,22 +17,6 @@ img[alt="schema-simboli-NUMERI1.png"]{
   width: 100%;
 }
 
-
-.operazioneBinaria img:nth-child(1) {
-  width: 30%;
-  box-shadow: none;
-  background-color: transparent;
-  filter: var(--invert-color);
-}
-
-.proprietàcommutativa img:nth-child(1) {
-  width: 40%;
-  box-shadow: none;
-  background-color: transparent;
-  filter: var(--invert-color);
-}
-
-
 /* TABELLA MIGLIORE CHE HO PER CSS SPECIFICO */
 .proprietàdistributiva #tabella_1 {
   width: fit-content;
@@ -45,13 +29,10 @@ img[alt="schema-simboli-NUMERI1.png"]{
   column-gap: 1em;
 }
 
-
-
-
 /* CSS */
 
 :root {
-  font-size: 100%; /*scala il fontsize di tutto*/
+  font-size: 110%; /*scala il fontsize di tutto*/
 }
 
 .theme-light {
@@ -76,15 +57,19 @@ h2 {
   border: none;
 }
 
-.markdown-preview-view h3, .cm-header-3 {
-  font-weight: var(--h2-weight) !important;
+.markdown-preview-view h2 {
+  font-size: 1.68em;
+}
+
+.markdown-preview-view h3 {
+  font-size: 1.45em;
+  font-weight: 600;
 }
 
 .markdown-preview-view h4 {
-  text-transform: none;
-  font-size: var(--text-normal);
-  color: var(--h3-color);
-}
+  font-size: 1.3em;
+  font-weight: normal;
+} 
 
 .markdown-preview-view h5 {
   font-size: var(--h4);
@@ -172,13 +157,27 @@ span.math-inline mjx-container {
   background-color: transparent;
   border: none;
   box-shadow: none;
-  padding-right: 3px;
+  padding-right: 1px;
   padding-left: 2px;
 }
 
 span.math-inline mjx-container mjx-math {
-  font-size: inherit;
+  font-size: 110%;
 }
+
+.due_uno {
+  display: inline-flex;
+  width: 100%;
+  height: fit-content;
+  padding-top: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100%;
+}
+
+.block-language-functionplot svg {
+  margin: 0 calc((100% - 550px)/2);
+}
+
 
 /***************************************************************************************************************/
 
@@ -249,14 +248,9 @@ span.definizione, span.due_uno{
   justify-self: end;
 }
 
-.due_uno {
+.definizione .due_uno {
   display: inline-grid;
-  width: 100%;
-  height: fit-content;
-  padding-top: 1em;
   grid-template-columns: 80% 20%;
-  grid-template-rows: 100%;
-  align-items: center;
 }
 
 .definizione div.due_uno span.l {
@@ -435,3 +429,4 @@ mjx-container[jax="CHTML"][display="true"] mjx-math {
   background-color: var(--background-modifier-border);
   margin: 2em 0 .3em 0;
 }
+

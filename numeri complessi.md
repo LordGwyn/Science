@@ -29,8 +29,6 @@ Tale forma viene derivata dalla forma cartesiana attraverso questi passaggi:
 z&=&x&+&i&\cdot&y
 \end{array}$
 
-![[Seno.png]]
-
 
 
 

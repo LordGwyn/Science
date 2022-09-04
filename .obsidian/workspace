@@ -35,86 +35,70 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "17e4d1b853a99d0a",
-    "type": "split",
+    "id": "59c2b4f0601e4db9",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "10aad58d9eef1367",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9eca3d243c26da02",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "4431a7057e4ebb4d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "edb49e93e7a9b51d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "b2907f87fb0fd878",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 317.02595138549805,
-    "collapsed": true
+    "currentTab": 0
   },
   "right": {
-    "id": "c4c587e284af29a4",
-    "type": "split",
+    "id": "0e8898fe6adf4ad0",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "1d077b759bc999a3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "607aafc420e500ca",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "numeri complessi.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a86aeb8ede26d996",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "numeri complessi.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "1f545cbcf4619e32",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "numeri complessi.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
+      },
+      {
+        "id": "8d6f7de23dfabdaf",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "numeri complessi.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "57527f65b042941e",
   "lastOpenFiles": [

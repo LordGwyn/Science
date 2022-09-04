@@ -41,7 +41,7 @@ z&=&x&+&i&\cdot&y
 
 ## Modulo di un numero complesso
 
-
+![[Modulo numero complesso.png]]
 
 
 ***

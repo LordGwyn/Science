@@ -11,7 +11,10 @@ Infatti i numeri complessi sono definiti sul piano cartesiano, appunto come una 
 ### Operazioni somma e prodotto
 Nella forma **cartesiana** del tipo $z=(x,y)$, il quale significato geometrico è assimilabile ad un punto sul piano, è possibile svolgere delle operazioni come somma e prodotto in modo simile alla somma e prodotto tra vettori. Tali operazioni definite in $\Bbb{C}$ sono quindi:
 
-<span class="center"><span>• **Somma:**  ==$z_1+z_2$== $=(x_1,y_1)+(x_2,y_2)=(x_1+x_2,\ y_1+y_2)$</span> </span><span class="center">• **Prodotto:** ==$z_1\cdot z_2$== $=(x_1,y_1)+(x_2,y_2)=(x_1\cdot x_2 - y_1\cdot y_2,\ x_1 \cdot y_2 + x_2 \cdot y_1)$</span>
+<span style="font-size: 80%">**Somma:**</span> <span class="center"> $z_1+z_2$ $=(x_1,y_1)+(x_2,y_2)=(x_1+x_2,\ y_1+y_2)$ </span>
+
+<span style="font-size: 80%">**Prodotto:**</span> <span class="center"> $z_1\cdot z_2$ $=(x_1,y_1)+(x_2,y_2)=(x_1\cdot x_2 - y_1\cdot y_2,\ x_1 \cdot y_2 + x_2 \cdot y_1)$ </span>
+
 
 ![[somma numeri complessi.PNG]]
  ed è utile ricordare dei casi "particolari" di utilizzo di queste operazioni come ad esempio: 
@@ -29,8 +32,14 @@ Tale forma viene derivata dalla forma cartesiana attraverso questi passaggi:
 z&=&x&+&i&\cdot&y
 \end{array}$
 
+### Operazioni somma e prodotto
+ le operazioni di somma e prodotto tra numeri complessi sono:
+ 
+ <span style="font-size: 80%">**Somma:**</span> <span class="center"> $z_1+z_2$ $=(x_1+iy_1)+(x_2+iy_2)=(x_1+x_2)+i(y_1+y_2)$ </span>
 
+<span style="font-size: 80%">**Prodotto:**</span> <span class="center"> $z_1\cdot z_2$ $=(x_1+iy_1)\cdot(x_2+iy_2)=(x_1x_2 - y_1y_2)+i(x_1  y_2 + x_2 y_1)$ </span>
 
+## Modulo di un numero complesso
 
 
 

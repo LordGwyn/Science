@@ -40,11 +40,13 @@ z&=&x&+&i&\cdot&y
 <span style="font-size: 80%">**Prodotto:**</span> <span class="center"> $z_1\cdot z_2$ $=(x_1+iy_1)\cdot(x_2+iy_2)=(x_1x_2 - y_1y_2)+i(x_1  y_2 + x_2 y_1)$ </span>
 
 ## Modulo di un numero complesso
-
+Il modulo di un numero complesso
 ![[Modulo numero complesso.png]]
 
 
 ***
+
+porva
 
 Tags:  
 #numericomplessi
